@@ -5,5 +5,12 @@
   "type": "Catalog",
   "title": "Products",
   "description": "Geoscience products representing the measured or inferred values of one or more variables over a given time range and spatial area",
-  "links": []
+  "links": [
+    {
+      "rel": "child",
+      "href": "./test-product/collection.json",
+      "type": "application/json",
+      "title": "Test Product"
+    }
+  ]
 }
