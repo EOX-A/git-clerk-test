@@ -1,0 +1,152 @@
+{
+  "type": "Collection",
+  "id": "ampac-esa-networking-action",
+  "stac_version": "1.0.0",
+  "description": "The Arctic is warming more than twice as fast as the global average, making climate changess polar effects more intense than anywhere else in the world. The Arctic accounts for half of the organic carbon stored in soils. There is high confidence that the thaw of terrestrial permafrost will lead to carbon release, but only low confidence regarding timing, magnitude and relative role of CO2 versus CH4 according to the sixth assessment report of IPCC (2021). There is general consensus that  these issues can be tackled through support by satellite observations, but this has not been fully exploited to date. The recently inaugurated Arctic Methane and Permafrost Challenge (AMPAC) strives to address these questions inter alia through making use of synergistic measurements, activities to improve satellite retrievals with a clear focus on high latitudes, and promoting  new dedicated satellite sensors as well as improving validation of existing and upcoming satellite missions.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "http://ampac-net.info",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/communities/scientists/arctic-methane-and-permafrost/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/ampac-esa-networking-action/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "ongoing",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        },
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Dirk Schuettemeyer",
+      "emails": [
+        {
+          "value": "dirk.schuettemeyer@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "b.geos GmbH (AT)ALFRED WEGENER INSTITUTE (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "DLR : GERMAN AEROSPACE CENTER (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "FINNISH METEOROLOGICAL INSTITUTE (FI)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "HELMHOLTZ:ZENTRUM POTSDAM : DEUTSCHES GEOFORSCHUNGZENTRUM (GFZ) (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "MAX PLANCK INSTITUTE FOR BIOGEOCHEMISTRY (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "STOCKHOLMS UNIVERSITET (SE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "VRIJE UNIVERSITEIT AMSTERDAM",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "DEPARTMENT OF EARTH SCIENCES (NL)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:22.999110Z",
+  "title": "AMPAC-Net",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-12-13T00:00:00Z",
+          "2023-01-04T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}

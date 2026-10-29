@@ -1,0 +1,113 @@
+{
+  "sci:publications": [
+    {"doi": "10.83395/ybd3-6496"}
+  ],
+  "sci:doi": "10.83395/0h7d-9d71",
+  "type": "Collection",
+  "id": "daily-3d-ocean-currents-world-ocean-circulation",
+  "stac_version": "1.0.0",
+  "description": "North Atlantic data-driven 3D Currents and Tracers (NATL3D), data-driven reconstruction of the 3D Currents and Tracers in the North Atlantic obtained by applying artificial intelligence and dynamical diagnostic models to a combination of in situ and satellite data",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.worldoceancirculation.org/Products#/metadata/0aa7daac-43e6-42f3-9f95-ef7da46bc702",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://data-cersat.ifremer.fr/projects/woc/products/theme2/ocean_currents/woc-l4-cur-natl2d_rep-1d/v2.0/pum.pdf",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/world-ocean-circulation/collection.json",
+      "type": "application/json",
+      "title": "Project: WOC"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ocean-currents/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean Currents"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/daily-3d-ocean-currents-world-ocean-circulation/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:project": "world-ocean-circulation",
+  "osc:status": "planned",
+  "osc:region": "North Atlantic",
+  "osc:type": "product",
+  "cf:parameter": [
+    {
+      "name": "ocean_currents"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "ocean-currents"
+  ],
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.964110Z",
+  "title": "WOC North Atlantic Data-Driven 3D Currents, Temperature and Salinity",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -76.002623842,
+          20.4479407425,
+          6.4276376583,
+          50.7093121683
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2010-01-01T00:00:00Z",
+          "2019-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Ocean Circulation",
+    "Ocean Currents"
+  ]
+}

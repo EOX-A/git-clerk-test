@@ -1,0 +1,125 @@
+{
+  "type": "Collection",
+  "id": "sentinel-1-for-surface-soil-moisture",
+  "stac_version": "1.0.0",
+  "description": "Develop, implement and test soil moisture retrieval methods using Sentinel-1 data. The C-band Sentinel-1 (S-1) European Radar Observatory, with its two satellites (S-1A & B), is the only operating SAR mission with monitoring capabilities, frequent revisit and large geographical coverage that will guarantee data continuity over the next decades.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/s1-for-surface-soil-moisture/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/s1-for-surface-soil-moisture/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/surface-soil-moisture-s1-for-surface-soil-moisture/collection.json",
+      "type": "application/json",
+      "title": "Surface soil moisture time series_1 km resolution_Southern Italy_S1"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/sentinel-1-for-surface-soil-moisture/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Malcolm Davidson",
+      "emails": [
+        {
+          "value": "malcolm.davidson@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "CNR INSTITUTE FOR ELECTROMAGNETIC SENSING OF THE ENVIRONMENT (IREA) (IT)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "GAMMA REMOTE SENSING AG (CH)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "Institute of Geodesy and Cartography (IGiK) (PL)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "LUDWIG:MAXIMILIAN UNIVERSITAT MUNCHEN (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:23.018110Z",
+  "title": "S1 for Surface Soil Moisture",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-10-20T00:00:00Z",
+          "2018-01-11T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}

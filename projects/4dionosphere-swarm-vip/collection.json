@@ -1,0 +1,125 @@
+{
+  "type": "Collection",
+  "id": "4dionosphere-swarm-vip",
+  "stac_version": "1.0.0",
+  "description": "In the project Swarm satellite data and other datasets are used to determine determine the dominant scales in the ionosphere at different geomagnetic conditions and create a semi:empiric dynamic model of the ionosphere.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.mn.uio.no/fysikk/english/research/projects/swarm-vip/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/4dionosphere/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/model-ionosphere-4dionosphere/collection.json",
+      "type": "application/json",
+      "title": "Semi-empiric model of ionosphere processes_SWARM"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/4dionosphere-swarm-vip/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Magnetosphere Ionosphere"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Jerome Bouffard",
+      "emails": [
+        {
+          "value": "jerome.bouffard@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "UNIVERSITY OF OSLO (NO)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "GMV INNOVATING SOLUTIONS SP. Z O.O. (PL)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "ISTITUTO NAZIONALE DI GEOFISICA E VULCANOLOGIA (IT)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "NOTTINGHAM TRENT UNIVERSITY (GB)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:22.984110Z",
+  "title": "SWARM VIP",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-07-04T00:00:00Z",
+          "2022-04-16T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}

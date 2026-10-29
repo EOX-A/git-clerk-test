@@ -1,0 +1,160 @@
+{
+  "sci:publications": [
+    {"doi": "10.83395/3ht6-s946"}
+  ],
+  "sci:doi": "10.83395/ypb6-x018",
+  "type": "Collection",
+  "id": "antarctic-ice-shelf-calving-fronts",
+  "stac_version": "1.0.0",
+  "description": "Antarctic Coastlines, 1997-2021. Time-evolving Antarctic calving fronts from observations. Greene, Chad A., Gardner, Alex S., Schlegel, Nicole-Jeanne, & Fraser, Alexander D. (2022). ",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/record/5903643",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.nature.com/articles/s41586-022-05037-w",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/polar-ice-shelf/collection.json",
+      "type": "application/json",
+      "title": "Project: Polar+ Ice Shelves"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-extent/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Extent"
+    },
+    {
+      "rel": "item",
+      "href": "./coastlines-antarctica-data-001.json",
+      "type": "application/json",
+      "title": "Calving fronts outlines Parquet"
+    },
+    {
+      "rel": "item",
+      "href": "./bedrock-topography-antarctica-bedmachine-item.json",
+      "type": "application/json",
+      "title": "Zarr Store"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/calving_fronts/access.ipynb",
+      "title": "Tutorial: Access the Data",
+      "description": "A Python notebook demonstrating how to access the data on the cloud storage.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "item",
+      "href": "./Antarctic_coastlines_v2.json",
+      "type": "application/json",
+      "title": "Antarctic_coastlines_v2"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:project": "polar-ice-shelf",
+  "osc:status": "ongoing",
+  "osc:region": "Antarctica",
+  "osc:type": "product",
+  "created": "2023-01-25T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "antarctic_ice_shelf_calving_fronts"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "ice-extent"
+  ],
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.973110Z",
+  "title": "Antarctic Ice Shelf Calving Fronts 1997-2021",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          -57.62119325033221
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1997-01-01T00:00:00Z",
+          "2023-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Glaciers/Ice Sheets",
+    "Sea Ice",
+    "Ice Shelf",
+    "Ice Extent",
+    "Cryospheric Indicators"
+  ],
+  "fair:Findable_has_doi": false,
+  "fair:Findable_rich_metadata": true,
+  "fair:Findable_identifier": true,
+  "fair:Findable_stac_assets": true,
+  "fair:Findable_indexed": true,
+  "fair:Findable_indexed_approved_metadata": true,
+  "fair:Findable_indexed_approved_data": true,
+  "fair:Accessible_general": true,
+  "fair:Accessible_protocols": true,
+  "fair:Accessible_files": 1.0,
+  "fair:Interoperable_uses_formal_language": true,
+  "fair:Interoperable_controlled_vocabularies": true,
+  "fair:Interoperable_related_links": true,
+  "fair:Interoperable_has_documentation": true,
+  "fair:Reusable_rich_descriptions": true,
+  "fair:Reusable_has_license": true,
+  "fair:Reusable_workflow_exists": false,
+  "fair:Reusable_cloud_assets_rate": 0.6666666666666666,
+  "fair:Reusable_has_visualisation": false,
+  "fair:Reusable_has_access_example": true
+}

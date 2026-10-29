@@ -1,0 +1,125 @@
+{
+  "type": "Collection",
+  "id": "smos-vegetation",
+  "stac_version": "1.0.0",
+  "description": "ESASMOS mission is part of ESA Living Planet Programme and carries the first-ever, polar-orbiting, space-borne, 2:D interferometric radiometer providing observations at 1.4 GHz. From the Level 1 brightness temperatures we derive the Level-2 data products, namely surface soil moisture and vegetation optical depth (VOD) (over land) and sea surface salinity (over oceans). SMOS not only contributes towards our understanding of the global water cycle, but also has the potential to improve our understanding of the global carbon cycle. The assimilation of SMOS soil moisture into a carbon assimilation scheme built around a terrestrial biosphere model was found to improve global CO2 flux estimates. Similarly, assimilating SMOS soil moisture and AMSR-E C-band VOD data into an evapotranspiration (ET) model was found to improve ET and root-zone soil moisture estimates over Australia.However, there is still a lack of in-depth understanding of the VOD product, and its potential to monitor vegetation properties and processes has not yet been satisfactorily explored. In this context, this activity aims to increase the scientific return of the SMOS VOD data product by preparing and promoting its use for vegetation applications in the fields of agriculture, drought monitoring and land surface modeling.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "http://smos-veg.inversion-lab.com/index.html",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/smos-vegetation/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/smos-l3-africa-smos-vegetation/collection.json",
+      "type": "application/json",
+      "title": "Gridded_Africa_SMOS level 3 products CATDS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/vod-africa-smos-vegetation/collection.json",
+      "type": "application/json",
+      "title": "VOD_Africa_SMOS IC products CATDS"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/smos-vegetation/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Matthias Drusch",
+      "emails": [
+        {
+          "value": "matthias.drusch@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "THE INVERSION LAB THOMAS KAMINSKI CONSULTING (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "LUND UNIVERSITY (SE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "UNIVERSITE TOULOUSE III PAUL SABATIER (FR)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:22.998110Z",
+  "title": "SMOS+ VEGETATION",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-10-05T00:00:00Z",
+          "2018-12-15T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}

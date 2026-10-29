@@ -1,0 +1,146 @@
+{
+  "type": "Collection",
+  "id": "sentinel-3-for-science-land-study-1-snow",
+  "stac_version": "1.0.0",
+  "description": "Develop, implement and validate algorithms for deriving several key snow parameters from Sentinel 3",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "http://snow.geus.dk/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sentinel-3-for-science-land-study-1-snow/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/broadband-albedo-greenland-s34science-snow/collection.json",
+      "type": "application/json",
+      "title": "Broadband albedo_Greenland_S3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-grain-diameter-greenland-s34science-snow/collection.json",
+      "type": "application/json",
+      "title": "Snow grain diameter_Greenland_S3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/spectral-albedo-greenland-s34science-snow/collection.json",
+      "type": "application/json",
+      "title": "Spectral albedo_Greenland_S3"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/sentinel-3-for-science-land-study-1-snow/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        },
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Michael Kern",
+      "emails": [
+        {
+          "value": "michael.kern@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "GEOLOGICAL SURVEY OF DENMARK AND GREENLAND (DK)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "BROCKMANN CONSULT GMBH (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "CNRS",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "DELEGATION NORMANDIE (FR)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:23.015110Z",
+  "title": "S34Science: Snow",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-10-11T00:00:00Z",
+          "2019-03-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}

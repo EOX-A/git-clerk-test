@@ -1,0 +1,186 @@
+{
+  "type": "Collection",
+  "id": "deep-earth-system-data-lab",
+  "stac_version": "1.0.0",
+  "description": "The Deep Earth System Data Lab (DeepESDL) delivers a service to the Earth Science community. The lab provides convenient access to relevant data sets, many of them generated in ESA's science projects, in an analysis-ready format. Moreover, DeepESDL comprises a powerful data science environment with a focus on machine-learning and artificial intelligence workflows. Access the DeepESDL in github: https://github.com/deepesdl",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "http://www.earthsystemdatalab.net",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/deepesdl/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/hydrology-4D/collection.json",
+      "type": "application/json",
+      "title": "Hydrology-4D"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/esa-cci-permafrost-workflow/record.json",
+      "type": "application/json",
+      "title": "Workflow: ESA CCI permafrost"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/esa-cci-permafrost/collection.json",
+      "type": "application/json",
+      "title": "esa-cci-permafrost"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/deepesdl/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/Predicted-Land-Surface-Temperature-and-Anomalies/collection.json",
+      "type": "application/json",
+      "title": "Predicted-Land-Surface-Temperature-and-Anomalies"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "ongoing",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        },
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Anca Anghelea",
+      "emails": [
+        {
+          "value": "anca.anghelea@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "BROCKMANN CONSULT GMBH (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "EOX IT SERVICES GMBH (AT)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "Leipzig University (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "EARTHWAVE Ltd (GB)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "MAX PLANCK INSTITUTE FOR BIOGEOCHEMISTRY (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:22.996110Z",
+  "title": "DeepESDL",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": [
+    "Earth System",
+    "Climate Change",
+    "Climate Extremes",
+    "Machine Learning",
+    "Deep Learning",
+    "Remote Sensing"
+  ]
+}

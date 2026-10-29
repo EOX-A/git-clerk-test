@@ -1,0 +1,116 @@
+{
+  "type": "Collection",
+  "id": "aeolus-innovation-expro-ocean-sub-surface-products-and-applications",
+  "stac_version": "1.0.0",
+  "description": "Assessing the potential of the Aeolus mission to monitor ocean sub:surface optical and biogeochemical properties based on the measurements from the wind lidar ALADIN (Atmospheric Laser Doppler Instrument) at 355 nm.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/aeolus-innovation-ocean-sub-surface-products-and-applications/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/aeolus-innovation-ocean-sub-surface-products-and-applications/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/aeolus-innovation-expro-ocean-sub-surface-products-and-applications/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "ongoing",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        },
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Marie-Helene Rio",
+      "emails": [
+        {
+          "value": "marie-helene.rio@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "NOVELTIS SAS (FR)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "UNIVERSITE DU LITTORAL COTE D OPALE (FR)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:23.014110Z",
+  "title": "AEOLUS+inno - AOC",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-09-12T00:00:00Z",
+          "2021-06-27T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}

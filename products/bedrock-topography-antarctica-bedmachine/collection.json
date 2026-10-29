@@ -1,0 +1,172 @@
+{
+  "sci:publications": [
+    {"doi": "10.5067/FPSU0V1MWUB6"}
+  ,
+    {"doi": "10.83395/j7s5-b728"}],
+  "type": "Collection",
+  "id": "bedrock-topography-antarctica-bedmachine",
+  "stac_version": "1.0.0",
+  "description": "This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, contains a bed topography/bathymetry map of Antarctica based on mass conservation, streamline diffusion, and other methods. The data set also includes ice thickness, surface elevation, an ice/ocean/land mask, ice thickness estimation errors, and a map showing where each method was utilized.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://nsidc.org/data/nsidc-0756/versions/3",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://nsidc.org/sites/default/files/documents/user-guide/nsidc-0756-v003-userguide.pdf",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/4d-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Project: 4D-ANTARCTICA"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-depth-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Depth/Thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacier-thickness-ice-sheet-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacier Thickness/Ice Sheet Thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/numerical-models/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Numerical models"
+    },
+    {
+      "rel": "item",
+      "href": "./bedrock-topography-antarctica-bedmachine-item.json",
+      "type": "application/json",
+      "title": "Zarr Store"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/bedrock_topography/access.ipynb",
+      "title": "Tutorial: Access the Data",
+      "description": "A Python notebook demonstrating how to access the data on the cloud storage.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "item",
+      "href": "./BedMachineAntarctica-v3.json",
+      "type": "application/json",
+      "title": "BedMachineAntarctica-v3"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:project": "4d-antarctica",
+  "osc:status": "ongoing",
+  "osc:region": "Antarctica",
+  "osc:type": "product",
+  "created": "2022-10-11T00:00:00Z",
+  "version": "3.0",
+  "sci:doi": "10.83395/3qxq-1k08",
+  "cf:parameter": [
+    {
+      "name": "bedrock-topography-antarctica-bedmachine"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "ice-depth-thickness",
+    "glacier-thickness-ice-sheet-thickness"
+  ],
+  "osc:missions": [
+    "numerical-models"
+  ],
+  "updated": "2024-09-12T20:32:06.210108Z",
+  "title": "Bedrock topography: MEaSUREs BedMachine Antarctica",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          -48.4643831063986
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1970-01-01T00:00:00Z",
+          "2019-12-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "various",
+  "keywords": [
+    "Ice Depth/Thickness",
+    "Cryospheric Indicators",
+    "Snow/Ice",
+    "Glaciers/Ice Sheets",
+    "Glacier Thickness/Ice Sheet Thickness",
+    "Sea Ice"
+  ],
+  "fair:Findable_has_doi": true,
+  "fair:Findable_rich_metadata": true,
+  "fair:Findable_identifier": true,
+  "fair:Findable_stac_assets": true,
+  "fair:Findable_indexed": true,
+  "fair:Findable_indexed_approved_metadata": true,
+  "fair:Findable_indexed_approved_data": true,
+  "fair:Accessible_general": true,
+  "fair:Accessible_protocols": true,
+  "fair:Accessible_files": 1.0,
+  "fair:Interoperable_uses_formal_language": true,
+  "fair:Interoperable_controlled_vocabularies": true,
+  "fair:Interoperable_related_links": true,
+  "fair:Interoperable_has_documentation": true,
+  "fair:Reusable_rich_descriptions": true,
+  "fair:Reusable_has_license": true,
+  "fair:Reusable_workflow_exists": false,
+  "fair:Reusable_cloud_assets_rate": 0.5,
+  "fair:Reusable_has_visualisation": false,
+  "fair:Reusable_has_access_example": true
+}

@@ -1,0 +1,128 @@
+{
+  "type": "Collection",
+  "id": "arktalas-hoavva-project",
+  "stac_version": "1.0.0",
+  "description": "Quantitative multi-scale (temporal and spatial) understanding of sea ice, ocean and atmosphere interactive processes and their mutual feedback, focusing on four Arctic Scientific research Challenges- Arctic Amplification, open water on sea ice dynamics, impact of extreme event storms in sea-ice formation, Artcic ocean spin up",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "http://arktalas.nersc.no/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/arktalas-hoavva-project/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/arktalas-hoavva-project/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Craig James Donlon",
+      "emails": [
+        {
+          "value": "craig.donlon@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "Nansen Environmental and Remote Sensing Center Norway",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "IFREMER France",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "OceanDataLab  France",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "NOVELTIS France",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:23.035110Z",
+  "title": "ARKATLAS",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-05-16T00:00:00Z",
+          "2021-07-30T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}

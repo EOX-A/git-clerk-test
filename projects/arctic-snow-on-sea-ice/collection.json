@@ -1,0 +1,125 @@
+{
+  "type": "Collection",
+  "id": "arctic-snow-on-sea-ice",
+  "stac_version": "1.0.0",
+  "description": "The study aimed at exploring, developing and validating different approaches to retrieve snow thickness over sea ice; to develop a new prototype processor; and to produce and validate an experimental dataset of snow thickness over the Arctic.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.isardsat.space/project/arctic-snow",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/arctic-snow-on-sea-ice/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/arctic-snow-on-sea-ice/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Ola Grabak",
+      "emails": [
+        {
+          "value": "ola.grabak@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "ISARDSAT SP. Z O.O. (PL)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "FINNISH METEOROLOGICAL INSTITUTE (FI)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "MULLARD SPACE SCIENCE LABORATORY:UNIVERSITY COLLEGE LONDON (GB)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "UNIVERSITY OF YORK",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "CENTRE FOR RESEARCH IN EARTH AND SPACE SCIENCE (CA)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:22.986110Z",
+  "title": "Arctic+Snow on Sea Ice",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-12-07T00:00:00Z",
+          "2018-09-30T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}

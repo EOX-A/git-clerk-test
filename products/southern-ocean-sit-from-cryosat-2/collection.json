@@ -1,0 +1,178 @@
+{
+  "sci:publications": [
+    {"doi": "10.83395/64qf-qr86"}
+  ],
+  "sci:doi": "10.83395/h0zb-sd78",
+  "type": "Collection",
+  "id": "southern-ocean-sit-from-cryosat-2",
+  "stac_version": "1.0.0",
+  "description": "Sea ice thickness derived from CryoSat-2 estimates of radar freeboard combined with the Altimetric Snow Depth (ASD) snow solution. ASD utilises data from SARAL AltiKa and CryoSat-2 to estimate the depth of snow on sea ice floes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.aviso.altimetry.fr/en/data/products/ice-products/altimetry-sea-ice-products-from-ctoh.html",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.mdpi.com/2072-4292/14/19/4741",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/cryosat-antarctic-ocean/collection.json",
+      "type": "application/json",
+      "title": "Project: Cryosat+ Antarctic Ocean"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/snow-depth/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Snow Depth"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/freeboard/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Freeboard"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-depth-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Depth/Thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "item",
+      "href": "./southern-ocean-sit-from-cryosat-2-item.json",
+      "type": "application/json",
+      "title": "Zarr Store"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/csao/access.ipynb",
+      "title": "Tutorial: Access the Data",
+      "description": "A Python notebook demonstrating how to access the data on the cloud storage.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "item",
+      "href": "./SIT_SH_2010_2018_CS2_SnowAMSR.ease2_12500_smth25000.json",
+      "type": "application/json",
+      "title": "SIT_SH_2010_2018_CS2_SnowAMSR.ease2_12500_smth25000"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:project": "cryosat-antarctic-ocean",
+  "osc:status": "completed",
+  "osc:region": "Antarctica",
+  "osc:type": "product",
+  "created": "2022-08-22T00:00:00Z",
+  "version": "1.0",
+  "cf:parameter": [
+    {
+      "name": "ice-sheet-velocity-antarctic-2021"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "snow-depth",
+    "freeboard",
+    "ice-depth-thickness"
+  ],
+  "osc:missions": [
+    "cryosat-2"
+  ],
+  "updated": "2024-09-12T20:32:06.231108Z",
+  "title": "Southern Ocean sea ice thickness from CryoSat-2",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          -56.7587107166777
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2002-10-15T00:00:00Z",
+          "2020-12-16T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "various",
+  "keywords": [
+    "Snow/Ice",
+    "Snow Depth",
+    "Cryospheric Indicators",
+    "Sea Ice",
+    "Freeboard",
+    "Ice Depth/Thickness"
+  ],
+  "fair:Findable_has_doi": false,
+  "fair:Findable_rich_metadata": true,
+  "fair:Findable_identifier": true,
+  "fair:Findable_stac_assets": true,
+  "fair:Findable_indexed": true,
+  "fair:Findable_indexed_approved_metadata": true,
+  "fair:Findable_indexed_approved_data": true,
+  "fair:Accessible_general": true,
+  "fair:Accessible_protocols": true,
+  "fair:Accessible_files": 0.5,
+  "fair:Interoperable_uses_formal_language": true,
+  "fair:Interoperable_controlled_vocabularies": true,
+  "fair:Interoperable_related_links": true,
+  "fair:Interoperable_has_documentation": true,
+  "fair:Reusable_rich_descriptions": true,
+  "fair:Reusable_has_license": true,
+  "fair:Reusable_workflow_exists": false,
+  "fair:Reusable_cloud_assets_rate": 0.5,
+  "fair:Reusable_has_visualisation": false,
+  "fair:Reusable_has_access_example": true
+}

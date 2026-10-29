@@ -1,0 +1,215 @@
+{
+  "type": "Collection",
+  "id": "cryotop-evolution",
+  "stac_version": "1.0.0",
+  "description": "Making inference about the state of the Antarctic and Greenland Ice Sheets with the production of swath elevations, DEMs, elevation change and innovative science products making use of the technique of swath interferometry applied to SARIn mode CryoSat data.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.cryotempo-eolis.org",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://cryotop-evolution.org",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-antarctica-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Antarctica_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-arctic-canada-north-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Arctic Canada North_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-arctic-canada-south-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Arctic Canada South_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-greenland-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Greenland_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-iceland-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Iceland_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-russian-arctic-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Russian Arctic_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-southern-andes-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Southern Andes_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-svalbard-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Svalbard_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-antarctica-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Antarctica_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-arctic-canada-north-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Arctic Canada North_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-arctic-canada-south-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Arctic Canada South_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-greenland-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Greenland_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-iceland-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Iceland_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-russian-arctic-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Russian Arctic_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-southern-andes-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Southern Andes_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-svalbard-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Svalbard_Cryosat"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/cryotop-evolution/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Jerome Bouffard",
+      "emails": [
+        {
+          "value": "jerome.bouffard@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "UNIVERSITY OF EDINBURGH (GB)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "ENVEO ENVIRONMENTAL EARTH OBSERVATION INFORMATION TECHNOLOGY GMBH (AT)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "UNIVERSITY OF LEEDS",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "isardSAT (ES)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:23.036110Z",
+  "title": "CryoTop Evolution",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-03-03T00:00:00Z",
+          "2019-11-30T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}
