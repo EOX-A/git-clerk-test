@@ -28,6 +28,12 @@
       "href": "./test-product/collection.json",
       "type": "application/json",
       "title": "Test Product"
+    },
+    {
+      "rel": "child",
+      "href": "./demo-product/collection.json",
+      "type": "application/json",
+      "title": "Demo Product"
     }
   ]
 }
