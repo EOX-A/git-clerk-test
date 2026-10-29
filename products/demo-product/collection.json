@@ -4,5 +4,31 @@
   "created": "2026-10-29T13:10:57Z",
   "osc:status": "completed",
   "type": "Collection",
-  "osc:type": "product"
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "Hello World, STAC description",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -22.798919396889215,
+          -39.34005170464186,
+          66.13944508594385,
+          38.69332047563091
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-10-27T00:00:00Z",
+          "2026-10-30T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [],
+  "osc:project": "",
+  "themes": []
 }
