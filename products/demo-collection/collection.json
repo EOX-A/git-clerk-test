@@ -1,0 +1,34 @@
+{
+  "id": "demo-collection",
+  "title": "Demo Collection",
+  "created": "2026-10-29T14:40:06Z",
+  "osc:status": "completed",
+  "type": "Collection",
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "Hello World!",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -25.76127125157532,
+          -38.69097335843777,
+          59.55564557550988,
+          39.683957319387844
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-10-12T00:00:00Z",
+          "2026-10-28T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [],
+  "osc:project": "",
+  "themes": []
+}
