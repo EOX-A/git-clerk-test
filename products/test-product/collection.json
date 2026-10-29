@@ -1,0 +1,34 @@
+{
+  "id": "test-product",
+  "title": "Test Product",
+  "created": "2026-10-29T10:15:58Z",
+  "osc:status": "completed",
+  "type": "Collection",
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "Collection Description!",
+  "license": "Afmparse",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -37.54037564087428,
+          -6.4605646837675295,
+          72.79568680953314,
+          56.73144371725536
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-10-20T00:00:00Z",
+          "2026-10-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [],
+  "osc:project": "",
+  "themes": []
+}
