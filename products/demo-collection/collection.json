@@ -7,7 +7,7 @@
   "osc:type": "product",
   "stac_version": "1.0.0",
   "description": "Hello World!",
-  "license": "various",
+  "license": "proprietary",
   "extent": {
     "spatial": {
       "bbox": [
