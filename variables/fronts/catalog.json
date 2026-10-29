@@ -1,0 +1,83 @@
+{
+  "type": "Catalog",
+  "id": "fronts",
+  "stac_version": "1.0.0",
+  "description": "Sharp temperature boundaries between water masses.",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/fronts/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/22b339b5-1af5-46e3-8191-d93729001eeb?gtm_keyword=FRONTS&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-HR/collection.json",
+      "type": "application/json",
+      "title": "WOC Fronts Derived from Remote Sensing SST Observations by SEVIRI over Agulhas Region"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-LR/collection.json",
+      "type": "application/json",
+      "title": "WOC Fronts Derived from Remote Sensing Microwave SST L4 over Agulhas Region"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-NA/collection.json",
+      "type": "application/json",
+      "title": "WOC Fronts Derived from Remote Sensing Microwave SST L4 over North Atlantic Region"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
+      "type": "application/json",
+      "title": "WOC Fronts Derived from Remote Sensing SST Observations by SEVIRI over Western Europe Region"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/booms-dataset/collection.json",
+      "type": "application/json",
+      "title": "Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) Satellite Derived Seascapes"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "updated": "2024-08-27T17:27:42.221831Z",
+  "keywords": [],
+  "title": "Fronts"
+}
