@@ -3,7 +3,7 @@
   "stac_extensions": [],
   "id": "",
   "type": "Catalog",
-  "title": "",
-  "description": "",
+  "title": "Products",
+  "description": "Geoscience products representing the measured or inferred values of one or more variables over a given time range and spatial area",
   "links": []
 }
