@@ -1,0 +1,119 @@
+{
+  "type": "Collection",
+  "id": "arctic-theme-3-fresh-water-fluxes",
+  "stac_version": "1.0.0",
+  "description": "The overarching project objectiveis threefold- 1) Supporting the development of novel products and enhanced data sets responding to the needs of the Arctic science community;2) Fostering new scientific results addressing the main priority areas of Arctic research;3) Preparing a solid scientific basis for larger activities addressing the priorities of the Arctic science community; This shall involve the collaborationamong the different scientific communities involved in Arctic process studies, modellers and EO experts.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/arctic-theme-3-fresh-water-fluxes-arcflux/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/arctic-theme-3-fresh-water-fluxes-arcflux/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ocean-freshwater-flux-arctic-theme3/collection.json",
+      "type": "application/json",
+      "title": "Ocean freshwater fluxes_Arctic_Multimission"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/arctic-theme-3-fresh-water-fluxes/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Diego Fernandez",
+      "emails": [
+        {
+          "value": "diego.fernandez@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "Technical University of Denmark (DK)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "CNRS DELEGATION REGIONALE MIDI:PYRENEE (FR)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "ENVEO ENVIRONMENTAL EARTH OBSERVATION GMBH (AT)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:23.004110Z",
+  "title": "ArcFlux",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-06-25T00:00:00Z",
+          "2018-01-03T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}

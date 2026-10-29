@@ -1,0 +1,113 @@
+{
+  "type": "Collection",
+  "id": "phab-iv-phase-based-sentinel-1-ice-velocity",
+  "stac_version": "1.0.0",
+  "description": "Develop the technical basis for an advanced Sentinel-1 Ice Velocity (IV) product for ice sheets and ice caps with improved spatial resolution and accuracy, based on Sentinel-1 interferometric phase measurements",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/phab-iv/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/phab-iv/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/phab-iv-phase-based-sentinel-1-ice-velocity/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Marcus Engdahl",
+      "emails": [
+        {
+          "value": "marcus.engdahl@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "Technical University of Denmark (DK)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "ENVEO ENVIRONMENTAL EARTH OBSERVATION INFORMATION TECHNOLOGY GMBH (AT)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "GEOLOGICAL SURVEY OF DENMARK AND GREENLAND (DK)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:23.001110Z",
+  "title": "PHAB-IV",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-12-20T00:00:00Z",
+          "2021-02-15T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}

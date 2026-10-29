@@ -1,0 +1,143 @@
+{
+  "type": "Collection",
+  "id": "polar-ice-shelf",
+  "stac_version": "1.0.0",
+  "description": "The European Space Agency (ESA) Polar+ Ice Shelves project exploits the 25-year record of ESA satellite observations to generate new measurements of ice shelf thickness change, ice speed, crack propagation, area change, and surface and basal melt across Antarctic Ice Shelves. These new datasets will reveal small scale ice shelf features such as the propagation of cracks along the ice shelf surface, deep sub-shelf meltwater channels that can erode ice locally by up to 200 meters, and changes in the calving front and grounding line location. These datasets will improve our understanding of the way in which ice shelves around Antarctica are changing today, which we will use to discover new insights about the physical mechanisms driving change and affecting the future stability of ice shelves in this remote and inaccessible continent.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://polar-iceshelf.org",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/polar-ice-shelf/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/antarctic-ice-shelf-calving-fronts/collection.json",
+      "type": "application/json",
+      "title": "Antarctic Ice Shelf Calving Fronts 1997-2021"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/antarctic-ice-shelf-melt-rates/collection.json",
+      "type": "application/json",
+      "title": "Antarctic ice shelf basal melt rates 1997-2021"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/polar-ice-shelf/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "ongoing",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Marcus Engdahl",
+      "emails": [
+        {
+          "value": "marcus.engdahl@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "University of Leeds (GB)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "DLR (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "Finnish Meteorological Institute (FMI) (FI)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "ENVEO (AT)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "EarthWave (GB)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "University of Edinburgh (GB)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:22.982110Z",
+  "title": "Polar+ Ice Shelves",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-03-09T00:00:00Z",
+          "2022-08-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}

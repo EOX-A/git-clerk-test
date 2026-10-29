@@ -1,0 +1,87 @@
+{
+  "id": "arceme-datacube-workflow",
+  "type": "Feature",
+  "geometry": null,
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/8w5t-fq11"}
+    ],
+    "sci:doi": "10.83395/zb0s-1014",
+    "title": "ARCEME Multi-Source Satellite Data Cube Pipeline",
+    "description": "ARCEME Data Cube Pipeline is an end-to-end orchestrator for building spatiotemporal satellite datacubes around disaster event locations. It takes a CSV of coordinates and event dates, queries Sentinel-2 L2A, Sentinel-1 RTC, Copernicus DEM, and ESA WorldCover, applies deep-learning-based cloud masking via SEnSeIv2, and merges all sources into a single rechunked Zarr archive  analysis-ready out of the box. Designed for batch processing of large location sets, with built-in resume support, Docker compatibility, and a single YAML configuration file.",
+    "type": "workflow",
+    "osc:project": "arceme",
+    "osc:status": "completed",
+    "formats": [
+      {
+        "name": "application/vnd+zarr"
+      }
+    ],
+    "updated": "2026-03-28T16:27:23Z",
+    "created": "2026-03-28T16:27:23Z",
+    "keywords": [
+      "Sentinel",
+      "DEM",
+      "ESA WorldCover",
+      "Data Cubes"
+    ],
+    "license": "MIT",
+    "version": "1",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "atmosphere"
+          },
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ]
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/arceme/collection.json",
+      "type": "application/json",
+      "title": "Project: Adaptation and Resilience to Climate Extremes and Multi-hazard events - ARCEME"
+    },
+    {
+      "rel": "git",
+      "href": "https://github.com/ARCEME/datacubes-processor",
+      "type": "application/json",
+      "title": "Git source repository"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ]
+}

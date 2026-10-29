@@ -1,0 +1,137 @@
+{
+  "type": "Collection",
+  "id": "methane",
+  "stac_version": "1.0.0",
+  "description": "The ESA Methane+ project aims at exploiting the SWIR and TIR CH4 observations from different satellites in order to better differentiate between sources and sinks of CH4 on the regional and global scale. For this we will use the CH4 observations of TROPOMI on Copernicus Sentinel-5p, IASI on MetOp-B, and CrIS on Suomi NPP in combination with atmospheric inversion models.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://methaneplus.eu/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/methane/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/methane/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Christian Retscher",
+      "emails": [
+        {
+          "value": "christian.retscher@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "Netherlands Institute for Space Research (NWO:I) (NL)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "Laboratoire de MÃ¢ËÅ¡ÃÂ©tÃ¢ËÅ¡ÃÂ©orologie Dynamique:FX:Conseil (FR)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "MAX PLANCK INSTITUTE FOR BIOGEOCHEMISTRY (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "UKRI Rutherford Appleton Laboratory (GB)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "UNIVERSITAET BREMEN (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "VRIJE UNIVERSITEIT AMSTERDAM",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "DEPARTMENT OF EARTH SCIENCES (NL)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:23.023110Z",
+  "title": "Methane+",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-20T00:00:00Z",
+          "2022-02-20T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}
