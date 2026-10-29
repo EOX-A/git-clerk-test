@@ -3,7 +3,26 @@
   "stac_extensions": [],
   "id": "",
   "type": "Catalog",
-  "title": "",
-  "description": "",
-  "links": []
+  "title": "Experiments",
+  "description": "Geoscience experiments",
+  "links": [
+    {
+      "href": "",
+      "title": "",
+      "type": "application/json",
+      "rel": "self"
+    },
+    {
+      "href": "",
+      "title": "",
+      "type": "application/json",
+      "rel": "root"
+    },
+    {
+      "href": "./esa-cci-permafrost/record.json",
+      "title": "ESA CCI permafrost",
+      "type": "application/json",
+      "rel": "item"
+    }
+  ]
 }
