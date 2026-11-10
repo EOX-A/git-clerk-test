@@ -28,6 +28,13 @@
       "href": "./test-product/collection.json",
       "type": "application/json",
       "title": "Test Product"
+    },
+    {
+      "rel": "child",
+      "href": "./greenland-velocity-2024/collection.json",
+      "type": "application/json",
+      "title": "Greenland Ice Velocity 2024"
     }
-  ]
+  ],
+  "updated": "2026-11-10T11:38:17Z"
 }
