@@ -1,0 +1,28 @@
+{
+  "type": "Catalog",
+  "id": "ice-velocity",
+  "stac_version": "1.0.0",
+  "title": "Ice Sheet Velocity (ECV)",
+  "description": "Horizontal and vertical surface flow velocity of grounded ice sheets and floating ice shelves.",
+  "updated": "2026-11-10T07:36:54Z",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/greenland-velocity-2024/collection.json",
+      "type": "application/json",
+      "title": "Greenland Ice Velocity 2024"
+    }
+  ]
+}

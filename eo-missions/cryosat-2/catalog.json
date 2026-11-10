@@ -1,0 +1,28 @@
+{
+  "type": "Catalog",
+  "id": "cryosat-2",
+  "stac_version": "1.0.0",
+  "title": "CryoSat-2",
+  "description": "SIRAL Ku-band SAR/Interferometric Radar Altimeter dedicated to polar ice sheet and sea ice monitoring.",
+  "updated": "2026-11-10T07:36:54Z",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/greenland-velocity-2024/collection.json",
+      "type": "application/json",
+      "title": "Greenland Ice Velocity 2024"
+    }
+  ]
+}

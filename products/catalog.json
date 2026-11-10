@@ -1,33 +1,28 @@
 {
-  "stac_version": "1.0.0",
-  "stac_extensions": [],
-  "id": "",
   "type": "Catalog",
+  "id": "products",
+  "stac_version": "1.0.0",
   "title": "Products",
-  "description": "Geoscience products representing the measured or inferred values of one or more variables over a given time range and spatial area",
+  "description": "Geoscience products representing measured, derived, or modelled values of environmental variables.",
+  "updated": "2026-11-10T07:36:54Z",
   "links": [
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
-      "type": "application/json"
-    },
     {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "Open Science Catalog"
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
     },
     {
       "rel": "child",
-      "href": "./4d-atlantic-ohc-global/collection.json",
+      "href": "./greenland-velocity-2024/collection.json",
       "type": "application/json",
-      "title": "Global Ocean Heat Content"
-    },
-    {
-      "rel": "child",
-      "href": "./test-product/collection.json",
-      "type": "application/json",
-      "title": "Test Product"
+      "title": "Greenland Ice Velocity 2024"
     }
   ]
 }
