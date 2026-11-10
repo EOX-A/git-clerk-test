@@ -252,7 +252,7 @@
       "rel": "child",
       "href": "../../products/surface-elevation-change-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017 Antarctica TanDEM-X"
+      "title": "Surface elevation changes Antarctic Peninsula <70\u00b0S between 2013 and 2017 Antarctica TanDEM-X"
     },
     {
       "rel": "child",
@@ -402,13 +402,13 @@
       "rel": "child",
       "href": "../../products/arceme-datacubes-global/collection.json",
       "type": "application/json",
-      "title": "ARCEME Data Cubes – DHP Global Sites"
+      "title": "ARCEME Data Cubes \u2013 DHP Global Sites"
     },
     {
       "rel": "child",
       "href": "../../products/arceme-datacubes-wocat/collection.json",
       "type": "application/json",
-      "title": "ARCEME Data Cubes – WOCAT/DHP European Sites"
+      "title": "ARCEME Data Cubes \u2013 WOCAT/DHP European Sites"
     },
     {
       "rel": "child",
@@ -457,9 +457,21 @@
       "href": "../../products/eowetmet-annual-lake-ice-regime-classification-nwt-sweden/collection.json",
       "type": "application/json",
       "title": "EOWetMet: Annual Lake Ice Regime Classification Dataset for NWT and Sweden (2021-2025)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/central-europe-agricultural-soil-moisture-and/collection.json",
+      "type": "application/json",
+      "title": "Central Europe Agricultural Soil Moisture and Vegetation Dynamics 2024"
+    },
+    {
+      "rel": "child",
+      "href": "../../projects/agri-sense/collection.json",
+      "type": "application/json",
+      "title": "Agri-Sense"
     }
   ],
-  "updated": "2024-08-27T17:27:42.200831Z",
+  "updated": "2026-11-10T12:36:21Z",
   "keywords": [],
   "title": "Land"
 }

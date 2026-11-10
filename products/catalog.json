@@ -28,6 +28,13 @@
       "href": "./test-product/collection.json",
       "type": "application/json",
       "title": "Test Product"
+    },
+    {
+      "rel": "child",
+      "href": "./central-europe-agricultural-soil-moisture-and/collection.json",
+      "type": "application/json",
+      "title": "Central Europe Agricultural Soil Moisture and Vegetation Dynamics 2024"
     }
-  ]
+  ],
+  "updated": "2026-11-10T12:36:21Z"
 }
