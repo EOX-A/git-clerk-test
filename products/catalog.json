@@ -28,6 +28,13 @@
       "href": "./test-product/collection.json",
       "type": "application/json",
       "title": "Test Product"
+    },
+    {
+      "rel": "child",
+      "href": "./greenland-ice-sheet-velocity-mapping-2024/collection.json",
+      "type": "application/json",
+      "title": "Cryo Dynamics"
     }
-  ]
+  ],
+  "updated": "2026-11-10T14:25:40Z"
 }
