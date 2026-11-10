@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "s2-po-valley-20240702",
+  "collection": "central-europe-agricultural-soil-moisture-and",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.5,
+          44.8
+        ],
+        [
+          12.5,
+          44.8
+        ],
+        [
+          12.5,
+          46.2
+        ],
+        [
+          9.5,
+          46.2
+        ],
+        [
+          9.5,
+          44.8
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    9.5,
+    44.8,
+    12.5,
+    46.2
+  ],
+  "properties": {
+    "datetime": "2024-07-02T10:22:15Z",
+    "title": "Sentinel-2 MSI Soil Moisture & Crop Vitality - Po Valley Italy (2024-07-02)",
+    "platform": "Sentinel-2",
+    "instruments": [
+      "MSI"
+    ],
+    "eo:cloud_cover": 0.8
+  },
+  "assets": {
+    "visual": {
+      "href": "https://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/32/T/NQ/2024/7/S2A_32TNQ_20240702_0_L2A/TCI.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "True Color Visual (COG)",
+      "roles": [
+        "visual"
+      ]
+    },
+    "soil_moisture": {
+      "href": "https://earthcode.eox.at/data/agri-sense/cogs/s2-po-valley-soil-moisture-20240702.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Surface Soil Moisture 10m (COG)",
+      "roles": [
+        "data"
+      ]
+    },
+    "ndvi": {
+      "href": "https://earthcode.eox.at/data/agri-sense/cogs/s2-po-valley-ndvi-20240702.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "NDVI Vegetation Index 10m (COG)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Central Europe Agricultural Soil Moisture and Vegetation Dynamics 2024"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Central Europe Agricultural Soil Moisture and Vegetation Dynamics 2024"
+    }
+  ]
+}

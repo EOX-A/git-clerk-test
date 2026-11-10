@@ -1,0 +1,147 @@
+{
+  "type": "Collection",
+  "id": "central-europe-agricultural-soil-moisture-and",
+  "stac_version": "1.0.0",
+  "title": "Central Europe Agricultural Soil Moisture and Vegetation Dynamics 2024",
+  "description": "High-resolution 2024 dataset generated under ESA EarthCODE Agri-Sense project framework covering Austria, Northern Italy, and the Alpine region.",
+  "license": "CC-BY-4.0",
+  "osc:type": "product",
+  "osc:project": "agri-sense",
+  "osc:status": "completed",
+  "osc:region": "Greenland",
+  "osc:variables": [
+    "soil-moisture"
+  ],
+  "osc:missions": [
+    "sentinel-2"
+  ],
+  "created": "2026-11-10T12:36:07Z",
+  "updated": "2026-11-10T12:36:21Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "land_ice_surface_velocity",
+      "unit": "m year-1"
+    }
+  ],
+  "keywords": [
+    "cryosphere",
+    "greenland",
+    "ice-velocity",
+    "sar",
+    "altimetry"
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.5,
+          45,
+          17.5,
+          49.2
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "assets": {
+    "greenland-vel-2024.zarr": {
+      "href": "https://eoresults.esa.int/archive/cryo/greenland-vel-2024.zarr",
+      "title": "Greenland Ice Velocity 2024 Zarr Store (42.8 GB)",
+      "type": "application/vnd+zarr",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/agri-sense/collection.json",
+      "type": "application/json",
+      "title": "Project: Agri-Sense"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Surface Soil Moisture (ECV)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "item",
+      "href": "./s2-austria-east-20240615.json",
+      "type": "application/json",
+      "title": "Sentinel-2 MSI Surface Reflectance & NDVI - Eastern Austria (2024-06-15)"
+    },
+    {
+      "rel": "item",
+      "href": "./s2-austria-west-20240615.json",
+      "type": "application/json",
+      "title": "Sentinel-2 MSI Surface Reflectance & NDVI - Western Austria (2024-06-15)"
+    },
+    {
+      "rel": "item",
+      "href": "./s2-po-valley-20240702.json",
+      "type": "application/json",
+      "title": "Sentinel-2 MSI Soil Moisture & Crop Vitality - Po Valley Italy (2024-07-02)"
+    },
+    {
+      "rel": "item",
+      "href": "./s2-central-alps-20240718.json",
+      "type": "application/json",
+      "title": "Sentinel-2 MSI Vegetation Index - Central Alpine Region (2024-07-18)"
+    },
+    {
+      "rel": "via",
+      "href": "https://earthcode.esa.int/docs/cryo-dynamics/greenland-velocity-2024.pdf",
+      "type": "application/pdf",
+      "title": "Documentation"
+    }
+  ],
+  "sci:doi": "10.5270/esa-cryo-vel-2024"
+}

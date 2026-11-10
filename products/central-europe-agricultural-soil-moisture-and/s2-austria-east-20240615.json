@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "s2-austria-east-20240615",
+  "collection": "central-europe-agricultural-soil-moisture-and",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          15.0,
+          47.0
+        ],
+        [
+          17.5,
+          47.0
+        ],
+        [
+          17.5,
+          49.0
+        ],
+        [
+          15.0,
+          49.0
+        ],
+        [
+          15.0,
+          47.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    15.0,
+    47.0,
+    17.5,
+    49.0
+  ],
+  "properties": {
+    "datetime": "2024-06-15T10:15:30Z",
+    "title": "Sentinel-2 MSI Surface Reflectance & NDVI - Eastern Austria (2024-06-15)",
+    "platform": "Sentinel-2",
+    "instruments": [
+      "MSI"
+    ],
+    "eo:cloud_cover": 2.1
+  },
+  "assets": {
+    "visual": {
+      "href": "https://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/33/U/VP/2024/6/S2B_33UVP_20240615_0_L2A/TCI.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "True Color Visual (COG)",
+      "roles": [
+        "visual"
+      ]
+    },
+    "soil_moisture": {
+      "href": "https://earthcode.eox.at/data/agri-sense/cogs/s2-austria-east-soil-moisture-20240615.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Surface Soil Moisture 10m (COG)",
+      "roles": [
+        "data"
+      ]
+    },
+    "ndvi": {
+      "href": "https://earthcode.eox.at/data/agri-sense/cogs/s2-austria-east-ndvi-20240615.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "NDVI Vegetation Index 10m (COG)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Central Europe Agricultural Soil Moisture and Vegetation Dynamics 2024"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Central Europe Agricultural Soil Moisture and Vegetation Dynamics 2024"
+    }
+  ]
+}
