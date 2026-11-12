@@ -28,6 +28,13 @@
       "href": "./test-product/collection.json",
       "type": "application/json",
       "title": "Test Product"
+    },
+    {
+      "rel": "child",
+      "href": "./invalid-draft-product/collection.json",
+      "type": "application/json",
+      "title": "Draft Without Theme"
     }
-  ]
+  ],
+  "updated": "2026-11-12T13:58:09Z"
 }

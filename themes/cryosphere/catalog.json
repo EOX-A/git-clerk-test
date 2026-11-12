@@ -468,7 +468,7 @@
       "rel": "child",
       "href": "../../products/surface-elevation-change-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017 Antarctica TanDEM-X"
+      "title": "Surface elevation changes Antarctic Peninsula <70\u00b0S between 2013 and 2017 Antarctica TanDEM-X"
     },
     {
       "rel": "child",
@@ -607,9 +607,21 @@
       "href": "../../products/ai4ais-larsen-c-ice-shelf-cube/collection.json",
       "type": "application/json",
       "title": "AI4AIS Larsen C ice shelf cube"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/invalid-draft-product/collection.json",
+      "type": "application/json",
+      "title": "Draft Without Theme"
+    },
+    {
+      "rel": "child",
+      "href": "../../projects/cryo-dynamics/collection.json",
+      "type": "application/json",
+      "title": "Cryo Dynamics"
     }
   ],
-  "updated": "2024-08-27T17:27:42.199831Z",
+  "updated": "2026-11-12T13:58:09Z",
   "keywords": [],
   "title": "Cryosphere"
 }
