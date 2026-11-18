@@ -1,4 +1,4 @@
-# Sentinel of the Seas: Synthetic Aperture Radar and Ocean Dynamics
+# Sentinel of the Seas Synthetic Aperture Radar and Ocean Dynamics
 
 <!--{
   as="hero"
