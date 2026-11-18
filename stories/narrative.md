@@ -1,0 +1,1 @@
+This request is outside the scope of EOX Platform and Earth Observation. I can only create or edit stories, maps, and narratives related to Earth Observation, geospatial analysis, satellite imagery, and Earth system monitoring.
