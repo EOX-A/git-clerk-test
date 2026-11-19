@@ -1,10 +1,10 @@
 # Urban Heat: When Cities Become Thermal Traps
 
-<!--{ as="hero" background="https://images.unsplash.com/photo-1477959858617-67f30bc75b82?auto=format&fit=crop&w=2000&q=80" }-->
+<!--{ as="hero" background="https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=2000&q=80" }-->
 
 As global temperatures climb, world metropolises face a quiet yet hazardous climate phenomenon: the **Urban Heat Island (UHI)** effect. Dense clusters of concrete, asphalt, steel, and stone absorb solar radiation during daylight hours and re-radiate it slowly overnight, transforming bustling downtowns and packed residential neighborhoods into sustained thermal hotspots.
 
-Photo by [Pedro Lastra](https://unsplash.com/photos/Nyvq2juw4_o) on [Unsplash](https://unsplash.com/)
+Photo by [Aleksandar Pasaric](https://unsplash.com/photos/photo-of-city-high-rise-buildings-during-night-time-NjlMj0BupkM) on [Unsplash](https://unsplash.com/)
 
 ---
 
