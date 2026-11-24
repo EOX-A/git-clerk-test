@@ -41,3 +41,8 @@ The following verified dashboard narratives explore related urban indicators, fo
 ![Vienna Urban Landscape](https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM_Wien/iStock-1173256779.jpg)
 
 *Urban morphology and building density across Vienna, illustrating surfaces that absorb solar radiation and contribute to localized thermal hotspots.*
+
+## Urban Mitigation & Green Infrastructure Strategies
+To combat rising thermal risks, Vienna has implemented targeted urban planning interventions focused on strategic cooling and surface modification. Empirical studies from the [City of Vienna Climate Action Plan](https://www.wien.gv.at/) emphasize that expanding urban tree canopies, introducing reflective façade and roofing materials, and unsealing paved areas significantly reduce local surface temperatures by up to 3°C to 4°C during peak summer afternoons.
+
+Integrating high-resolution Earth Observation data from [Copernicus Sentinel-2](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2) and the [GTIF Austria Urban Heat Trend Monitor](https://gtif-austria.github.io/public-narratives/urban-heat-trend-monitor.md) allows municipal authorities to assess the efficacy of these green-blue infrastructure corridors, ensuring that investments are prioritized in districts with high social vulnerability and critical thermal loads.
