@@ -1,5 +1,5 @@
-# Ocean Nutrients & Phytoplankton Dynamics: Tracking Marine Ecosystems from Space <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_PIX_Ocean_COVER_Photo.jpeg" }-->
-#### Satellite observations unraveling ocean color, nutrient distribution, and primary productivity under a changing climate.
+# Ocean Nutrients & Phytoplankton Dynamics: Tracking Marine Ecosystems from Space <!--{ as="img" mode="hero" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80" }-->
+#### Satellite observations unraveling ocean color, nutrient distribution, and primary productivity under a changing climate. Photo on Unsplash.
 
 ## Marine Biogeochemistry and Global Ocean Monitoring
 Understanding climate change impacts on ocean temperatures, circulation regimes, and biogeochemical cycling is fundamental to the sustainable stewardship of planetary marine resources. Shifts in physical oceanography directly modulate microscopic phytoplankton communities—the vital base of the marine food web—and govern the biological carbon pump responsible for atmospheric carbon dioxide uptake.
@@ -34,6 +34,10 @@ Characterized by deep abyssal depths and ultra-oligotrophic regimes, the central
 #### Strait of Sicily Upwelling Front
 Hydrodynamic constraints and wind-induced coastal upwelling along the southern Sicilian shelf elevate sub-surface nutrients into the photic zone, fueling localized primary productivity hotspots.
 
+### <!--{ center=[-9.5,39.2] zoom=7 animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857","crossOrigin":"anonymous","attributions":"<a href=\"https://maps.eox.at\" target=\"_blank\">\u00a9 Terrain Light by EOX IT Services GmbH</a>, \u00a9 <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a>"}},{"type":"Tile","properties":{"id":"marine-nutrients","title":"Ocean Nutrients (Nitrate)"},"source":{"type":"WMTSCapabilities","url":"https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-nut_anfc_0.25deg_P1M-m_202311?service=WMTS&request=GetCapabilities","layer":"GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-nut_anfc_0.25deg_P1M-m_202311/no3","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}}]' }-->
+#### Portuguese Coastal Upwelling System
+Along the western Iberian shelf, persistent northerly winds drive coastal Ekman transport, triggering seasonal upwelling that brings cold, nitrate-rich North Atlantic deep water into the photic zone to nourish productive sardine and pelagic fisheries.
+
 ## Synthesis, Data Sources & Outlook
 Continuous satellite remote sensing of ocean color combined with biogeochemical assimilations provides indispensable insight into the health and resilience of global marine ecosystems. By monitoring chlorophyll-a, net primary productivity, and nutrient regimes across macro- and regional scales, spaceborne observations equip scientists and policymakers to evaluate the cascading impacts of climate change on ocean biodiversity and fisheries sustainability.
 
@@ -44,3 +48,6 @@ Continuous satellite remote sensing of ocean color combined with biogeochemical 
 - **Curated Catalog Dataset / Indicator**: **Ocean Nutrients (Nitrate)** (`copernicus-marine-nutrients`), provided via the [Copernicus Marine Service](https://marine.copernicus.eu/) (GLOBAL_ANALYSISFORECAST_BGC_001_028). It supplies monthly modeled biogeochemical nitrate concentrations ($NO_3$) across coastal and open waters to trace the nutrient availability that dictates primary productivity.
 
 *This story is an AI-generated draft. Verify scientific data and satellite visualizations independently.*
+
+### Image Credits
+- Photo by [Sean Oulashin](https://unsplash.com/@oulashin?utm_source=eox_hub&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=eox_hub&utm_medium=referral)
