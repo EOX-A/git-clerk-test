@@ -1,4 +1,4 @@
-# Ocean Observations: Nutrients, Temperature, and Marine Ecosystem Dynamics <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_PIX_Ocean_COVER_Photo.jpeg" }-->
+# Ocean Observations: Nutrients, Temperature, and Marine Ecosystem Dynamics <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/EOX-A/git-clerk-test/037f59a231e1f790df1a91a506cf6a470717617b/assets/ocean-8fcaaeb2.jpeg" }-->
 #### Examining biochemical marine cycles, phytoplankton dynamics, and ocean biogeochemistry through satellite remote sensing and Copernicus Marine models.
 
 ## Monitoring Marine Biogeochemistry & Primary Productivity
