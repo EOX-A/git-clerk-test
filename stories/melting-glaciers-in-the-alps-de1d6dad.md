@@ -6,6 +6,12 @@ The European Alps are warming at more than twice the global average rate, trigge
 
 Spaceborne remote sensing via the [Copernicus Sentinel-2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) and [Copernicus Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) satellites plays an essential role in tracking glacier surface extent, snowline elevation, and terminal retreat. High-resolution optical multispectral bands enable researchers to map bare ice exposure, albedo changes from atmospheric dust deposition, and moraine instability across steep topography.
 
+### Regional and Country-Specific Variations Across the Alps
+Glacier response varies markedly across Alpine national borders due to differences in elevation, local microclimates, and valley geometries:
+- **Austria (Eastern Alps):** Austrian glaciers generally occupy lower mean altitudes than their western counterparts, making them exceptionally vulnerable to warm summer isotherms. Monitoring by the [Austrian Alpine Club (ÖAV)](https://www.alpenverein.at/) and [GeoSphere Austria](https://www.geosphere.at/) documents widespread downwasting, snowline rises above 3,000 meters, and the rapid disintegration of valley tongues such as the Pasterze.
+- **Switzerland (Central Alps):** Home to the largest contiguous ice masses like the Great Aletsch Glacier, Switzerland experienced unprecedented volume loss exceeding 10% of total glacier ice within just two consecutive warm years according to [GLAMOS](https://www.glamos.ch/). High-altitude firn reservoirs that historically sustained summer mass balance are now frequently stripped of seasonal snow cover entirely.
+- **France and Italy (Western and Southern Alps):** Massive valley glaciers around the Mont Blanc massif, Gran Paradiso, and the Dolomites face severe lateral moraine collapse, bedrock exposure, and permafrost thawing. In maritime-influenced sectors of France and steep southern flanks in Italy, increasing zero-degree limits accelerate tongue detachment and increase rockfall hazards near critical alpine infrastructure.
+
 ### Related Official Dashboard Narratives
 While official dashboard stories also explore cryosphere and ecosystem dynamics globally, the following connected case studies provide vital context on ice sheets and environmental pressures:
 - [Collaboration on Glaciers and Ice Sheets Research](https://ESA-eodashboards.github.io/eodashboard-narratives/thwaites-intro.md) (EO Dashboard) – Examines polar glacier dynamics, grounding lines, and sea-level contributions.
