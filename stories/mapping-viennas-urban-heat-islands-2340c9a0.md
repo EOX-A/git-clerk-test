@@ -8,6 +8,10 @@ According to findings in the European Commission Joint Research Centre assessmen
 
 ## Regional Temperature & Climatology Context: Vienna & Central Europe <!--{ as="eox-map" zoom=11 center=[16.3738,48.2082] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857","attributions":"<a href=\"https://maps.eox.at\" target=\"_blank\">\u00a9 Terrain Light by EOX IT Services GmbH</a>, \u00a9 <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a>","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"climate-temperature","title":"Europe 2m Temperature & Climatology"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","params":{"LAYERS":"AWS_VIS_2MTEMPERATURE","TILED":true,"TRANSPARENT":true},"crossOrigin":"anonymous","attributions":"<a href=\"https://eox.at\" target=\"_blank\">Data Source</a>"}}]' }-->
 
+## Simple Image Example <!--{as="img" data-fallback-src="" src="https://www.esa.int/media/land-surface-temperature-in-vienna-on-14-july-2023" style="width: 100%; height: 600px;"}-->
+
+## Simple Image Example <!--{as="img" data-fallback-src="" src="https://images.unsplash.com/photo-1461880234904-751a2f54f1c7?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="width: 100%; height: 600px;"}-->
+
 ## How Satellite Imagery Identifies Urban Heat Islands
 Satellite remote sensing provides an objective, multi-scale framework for detecting, mapping, and monitoring urban surface temperatures:
 
