@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Start message
-        run: echo "Starting dummy workflow for PR #$GITHUB_REF_NAME triggered by ${{ github.actor }}..."
+        run: 'echo "Starting dummy workflow for PR #$GITHUB_REF_NAME triggered by ${{ github.actor }}..."'
 
       - name: Simulate work
         run: |
