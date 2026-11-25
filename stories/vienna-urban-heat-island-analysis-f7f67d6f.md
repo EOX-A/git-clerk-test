@@ -1,0 +1,53 @@
+# Urban Heat Islands in Vienna: Satellite Thermal Dynamics and Climate Resilience <!--{ as="img" mode="hero" src="https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM_Wien/iStock-1173256779.jpg" }-->
+#### Investigating localized heat anomalies, surface temperatures, and urban climate adaptation across Vienna using Copernicus Sentinel satellite observations and regional climate models.
+
+## Urban Heat Islands and Climatological Context
+Vienna, like many dense metropolitan centres across Central Europe, is experiencing amplified summer heat stress driven by the Urban Heat Island (UHI) effect. Densely built urban fabrics, characterized by concrete, asphalt, and low albedo surfaces, store solar radiation during daylight hours and release it slowly overnight. At the official meteorological monitoring station at [Hohe Warte in Vienna](https://klimadashboard.at), recent climate monitoring highlights a dramatic upward trend: measurement years such as 2024 registered more than four times the number of hot days (≥30 °C) and over ten times the frequency of tropical nights (minimum temperature ≥20 °C) compared to the 1961–1990 climatological baseline.
+
+### Official Platform Narratives & Catalog Datasets
+
+To contextualize this research, Earth Observation platforms provide both foundational catalog indicators and official scrollytelling narratives:
+
+#### Verified Catalog Indicator
+- **Dataset**: [Europe 2m Temperature & Climatology](https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54) (`AWS_VIS_2MTEMPERATURE`), providing pan-European 2-meter air temperature observations and meteorological overlays.
+
+#### Official Dashboard Narratives
+Several official dashboard narratives examine urban heat dynamics, environmental indicators, and ecosystem changes across Europe and globally:
+1. [Using Earth Observation to Track Urban Indicators: Biodiversity, Heat Islands, Flood Risk, and More](https://esa-eodashboards.github.io/RACE-narratives/IDEAS.md) (ESA RACE)
+2. [Urban Heat Trend Monitor](https://gtif-austria.github.io/public-narratives/urban-heat-trend-monitor.md) (GTIF Austria)
+3. [Heat Risk Maps](https://gtif-austria.github.io/public-narratives/heat_risk_maps.md) (GTIF Austria)
+4. [Forests on the Brink: Satellite Imagery unveiling Loss and Shifting Forest Landscapes](https://ESA-eodashboards.github.io/eodashboard-narratives/forest_loss_and_degradation.md) (EO Dashboard)
+5. [Mangroves for Coastal Erosion Control: Harnessing Satellite Imagery for Effective Monitoring](https://ESA-eodashboards.github.io/eodashboard-narratives/IND-MangroveMonitoring.md) (EO Dashboard)
+6. [Understanding climate change effects on water temperature and ocean currents is vital to managing these resources](https://ESA-eodashboards.github.io/eodashboard-narratives/ocean-colours.md) (EO Dashboard)
+
+## Vienna Urban Heat Island Tour <!--{ as="eox-map" mode="tour" position="left" }-->
+
+### <!--{ zoom=7 center=[16.3738,48.2082] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857","attributions":"<a href=\"https://maps.eox.at\" target=\"_blank\">\u00a9 Terrain Light by EOX IT Services GmbH</a>, \u00a9 <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a>","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"climate-temperature","title":"Europe 2m Temperature & Climatology"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","params":{"LAYERS":"AWS_VIS_2MTEMPERATURE","TILED":true,"TRANSPARENT":true},"crossOrigin":"anonymous","attributions":"<a href=\"https://eox.at\" target=\"_blank\">Data Source</a>"}}]' animationOptions='{"duration":500}' }-->
+#### Pan-European Temperature Overview
+Regional 2-meter air temperature dynamics across the Pannonian Basin and Central Europe reveal persistent continental summer heat domes ([Europe Climatology](https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54)).
+
+### <!--{ zoom=13 center=[16.371,48.208] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857","attributions":"<a href=\"https://maps.eox.at\" target=\"_blank\">\u00a9 Terrain Light by EOX IT Services GmbH</a>, \u00a9 <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a>","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"climate-temperature","title":"Europe 2m Temperature & Climatology"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","params":{"LAYERS":"AWS_VIS_2MTEMPERATURE","TILED":true,"TRANSPARENT":true},"crossOrigin":"anonymous","attributions":"<a href=\"https://eox.at\" target=\"_blank\">Data Source</a>"}}]' animationOptions='{"duration":500}' }-->
+#### Historical Core & Innere Stadt
+High building density and extensive stone paving produce intense daytime heat retention and elevated nocturnal temperatures documented in the [Wiener Stadtklimaanalyse](https://gtif-austria.github.io/public-narratives/heat_risk_maps.md).
+
+### <!--{ zoom=14 center=[16.342,48.188] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857","attributions":"<a href=\"https://maps.eox.at\" target=\"_blank\">\u00a9 Terrain Light by EOX IT Services GmbH</a>, \u00a9 <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a>","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"climate-temperature","title":"Europe 2m Temperature & Climatology"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","params":{"LAYERS":"AWS_VIS_2MTEMPERATURE","TILED":true,"TRANSPARENT":true},"crossOrigin":"anonymous","attributions":"<a href=\"https://eox.at\" target=\"_blank\">Data Source</a>"}}]' animationOptions='{"duration":500}' }-->
+#### Gürtel Corridor & High Vulnerability Zones
+Densely populated residential blocks along the Gürtel corridor combine high impervious surface ratios with socio-demographic vulnerability, identified as key priority areas by [AIT Center for Energy](https://gtif-austria.github.io/public-narratives/heat_risk_maps.md).
+
+### <!--{ zoom=13 center=[16.415,48.225] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857","attributions":"<a href=\"https://maps.eox.at\" target=\"_blank\">\u00a9 Terrain Light by EOX IT Services GmbH</a>, \u00a9 <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a>","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"climate-temperature","title":"Europe 2m Temperature & Climatology"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","params":{"LAYERS":"AWS_VIS_2MTEMPERATURE","TILED":true,"TRANSPARENT":true},"crossOrigin":"anonymous","attributions":"<a href=\"https://eox.at\" target=\"_blank\">Data Source</a>"}}]' animationOptions='{"duration":500}' }-->
+#### Danube River Corridor & Cooling Axes
+The Danube corridor and Donauinsel act as crucial regional fresh air ventilation corridors, reducing local land surface temperatures by several degrees Celsius ([OHB Digital Connect UHTM](https://gtif-austria.github.io/public-narratives/urban-heat-trend-monitor.md)).
+
+### <!--{ zoom=12 center=[16.248,48.215] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857","attributions":"<a href=\"https://maps.eox.at\" target=\"_blank\">\u00a9 Terrain Light by EOX IT Services GmbH</a>, \u00a9 <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a>","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"climate-temperature","title":"Europe 2m Temperature & Climatology"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","params":{"LAYERS":"AWS_VIS_2MTEMPERATURE","TILED":true,"TRANSPARENT":true},"crossOrigin":"anonymous","attributions":"<a href=\"https://eox.at\" target=\"_blank\">Data Source</a>"}}]' animationOptions='{"duration":500}' }-->
+#### Wienerwald Biosphere & Nocturnal Cool Air Flow
+The forested slopes of the Wienerwald generate nocturnal katabatic cool air flows that penetrate western districts, mitigating thermal loads across Hietzing and Penzing ([GeoSphere Austria](https://klimadashboard.at)).
+
+## Actionable Urban Cooling Strategies and Scientific Outlook
+Combining satellite remote sensing—such as Sentinel-2 multispectral vegetation monitoring and downscaled Sentinel-3 Land Surface Temperature (LST) observations—with local microclimate models equips urban planners with the precision required to direct greening interventions where vulnerability is highest. As demonstrated by the [Urban Heat Trend Monitor](https://gtif-austria.github.io/public-narratives/urban-heat-trend-monitor.md) and the [Heat Risk Maps](https://gtif-austria.github.io/public-narratives/heat_risk_maps.md) initiatives, proactive measures such as unsealing courtyards, enhancing street tree canopies, and preserving ventilation corridors directly temper microclimates across vulnerable municipal districts.
+
+### Data Sources & References
+- **Climatological Data & Basemaps**: [Sentinel Hub WMS](https://services.sentinel-hub.com/) and [EOX IT Services Terrain Light](https://maps.eox.at)
+- **Regional Analysis & Indicators**: [Green Transition Information Factory Austria (GTIF)](https://gtif.esa.int) & [ESA RACE Dashboard](https://race.esa.int)
+- **Meteorological Trends**: [Klimadashboard Hohe Warte / GeoSphere Austria](https://klimadashboard.at)
+
+*This story is an AI-generated draft. Verify scientific data and satellite visualizations independently.*
