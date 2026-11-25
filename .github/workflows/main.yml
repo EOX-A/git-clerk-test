@@ -1,0 +1,26 @@
+name: Dummy CI Check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  dummy-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Start message
+        run: echo "Starting dummy workflow for PR #$GITHUB_REF_NAME triggered by ${{ github.actor }}..."
+
+      - name: Simulate work
+        run: |
+          echo "Running mock checks..."
+          sleep 5
+          echo "All checks completed!"
+
+      - name: Write to Job Summary
+        run: |
+          echo "### Dummy Action Passed ✅" >> $GITHUB_STEP_SUMMARY
+          echo "- **Triggered by:** \`${{ github.actor }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **PR Ref:** \`$GITHUB_REF_NAME\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Duration:** ~5 seconds" >> $GITHUB_STEP_SUMMARY
