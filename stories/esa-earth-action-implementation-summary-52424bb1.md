@@ -1,0 +1,69 @@
+# ESA Earth Action Implementation Strategy: Operational Earth Observation for Global Resilience <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/Floodings/Hochwasser_Gars_am_Kamp_2024_03.jpg" }-->
+#### An interactive synthesis summarizing ESA's Earth Action Implementation Strategy 2027 and examining key operational priority sites with Copernicus optical satellite imagery.
+
+## Strategy Overview & Official Dashboard Context
+### Executive Summary: ESA Earth Action Implementation Strategy 2027
+
+The European Space Agency's (ESA) **Earth Action Implementation Strategy 2027** sets out a comprehensive roadmap to transition Earth Observation (EO) capabilities into direct societal and policy impact. Centered on European Green Deal priorities, international climate mandates, and civil security, the strategy outlines four essential operational pillars:
+
+1. **Accelerating Climate Adaptation & Resilience**: Operationalizing multi-sensor satellite data streams to assess climate risk, manage inland water vulnerabilities, and monitor ecosystem tipping points.
+2. **Disaster Risk Reduction & Emergency Response**: Enhancing near-real-time satellite analytics across urban and rural zones to mitigate flood catastrophes, wildfire devastation, and industrial disruptions through platforms like [WASDI](https://www.wasdi.cloud/) and the [Copernicus Emergency Management Service](https://mapping.emergency.copernicus.eu/).
+3. **Sustainable Resource & Ecosystem Stewardship**: Tracking forest degradation, coastal erosion, agricultural shifts, and urbanization to verify environmental policy compliance and biodiversity protection.
+4. **Expanding the Digital Ecosystem & User Uptake**: Providing scalable cloud infrastructure via the [Network of Resources (NoR)](https://nor-discover.org/) and open-science environments such as the [Euro Data Cube (EDC)](https://eurodatacube.com/).
+
+---
+
+### Catalog Dataset vs. Official Platform Narratives
+
+To ensure clarity between raw catalog observation assets and curated analytical stories, the platform distinguishes between the two resources:
+
+#### 1. Catalog Dataset / Indicator
+- **[Copernicus Sentinel-2 Level-2A Multispectral Imagery](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2)**: Global high-resolution optical surface reflectance imagery sourced from the official Copernicus EOPF Explorer STAC API, configured below with Sentinel-2 Cloudless basemaps and high-resolution True Color (RGB) dynamic layers.
+
+#### 2. Official Dashboard Narratives
+Multiple official thematic narratives explore these priority operational domains across the dashboards:
+- [Mapping the 2024 Central European Floods with Satellite Technology](https://esa-eodashboards.github.io/RACE-narratives/wasdi-story-final.md) (RACE)
+- [Multitemporal Vegetation Change Dynamics across all Sentinel-2 observations](https://gtif-austria.github.io/public-narratives/vegetation-change-dynamics.md) (GTIF Austria)
+- [Satellite images reveal a view of the ocean that is as rich and complex as that of land](https://ESA-eodashboards.github.io/eodashboard-narratives/ocean_plants.md) (eodashboard)
+- [Forests on the Brink: Satellite Imagery unveiling Loss and Shifting Forest Landscapes](https://ESA-eodashboards.github.io/eodashboard-narratives/forest_loss_and_degradation.md) (eodashboard)
+- [Mangroves for Coastal Erosion Control: Harnessing Satellite Imagery for Effective Monitoring](https://ESA-eodashboards.github.io/eodashboard-narratives/IND-MangroveMonitoring.md) (eodashboard)
+- [Troubled Waters: Unraveling the Impacts of Climate Change on Inland Waters](https://ESA-eodashboards.github.io/eodashboard-narratives/lakes-intro.md) (eodashboard)
+- [Understanding climate change effects on water temperature and ocean currents is vital to managing these resources](https://ESA-eodashboards.github.io/eodashboard-narratives/ocean-colours.md) (eodashboard)
+- [Urbanization monitoring from EO data](https://ESA-eodashboards.github.io/eodashboard-narratives/VTN-UrbanExpansion.md) (eodashboard)
+
+## Action Plan Geography: Key Operational Case Study Sites <!--{ as="eox-map" mode="tour" position="left" }-->
+
+### <!--{ zoom=11 center=[-0.376,39.469] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-rgb","title":"Sentinel-2 True Color (RGB)","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma rgb 1.3, sigmoidal rgb 6 0.1, saturation 1.2","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}}]' }-->
+#### Valencia, Spain: Rapid Emergency Flood Mapping
+Torrential DANA rainfalls in eastern Spain demonstrated the vital need for rapid satellite flood delineations, documented in the [2024 Central European Floods narrative](https://esa-eodashboards.github.io/RACE-narratives/wasdi-story-final.md). Optical Sentinel-2 and radar Sentinel-1 sensors enable emergency services to assess inundation corridors and damaged infrastructure.
+
+### <!--{ zoom=11 center=[16.005,48.33] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-rgb","title":"Sentinel-2 True Color (RGB)","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma rgb 1.3, sigmoidal rgb 6 0.1, saturation 1.2","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}}]' }-->
+#### Lower Austria & Vienna: River Basins and Urban Flooding
+During September 2024 storm events, water levels in the Wien River surged precipitously, impacting communities across St. Pölten and Vienna as detailed by [Copernicus Emergency Management](https://mapping.emergency.copernicus.eu/). High-resolution optical reflectance data allows spatial planners to trace water recession and sediment displacement.
+
+### <!--{ zoom=10 center=[17.88,46.85] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-rgb","title":"Sentinel-2 True Color (RGB)","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma rgb 1.3, sigmoidal rgb 6 0.1, saturation 1.2","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}}]' }-->
+#### Lake Balaton, Hungary: Inland Water Health
+Inland surface water habitats require constant monitoring of surface temperature, water extent, and algal dynamics, as featured in [Troubled Waters](https://ESA-eodashboards.github.io/eodashboard-narratives/lakes-intro.md). Sentinel-2 optical bands measure chlorophyll concentrations and turbidity gradients to safeguard freshwater security.
+
+### <!--{ zoom=11 center=[103.61,0.068] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-rgb","title":"Sentinel-2 True Color (RGB)","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma rgb 1.3, sigmoidal rgb 6 0.1, saturation 1.2","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}}]' }-->
+#### Kuala Selat, Indonesia: Coastal Erosion and Mangrove Loss
+Erosion and seawater intrusion in Sumatra threaten critical mangrove barriers and local economic livelihoods, highlighted in the [Mangroves for Coastal Erosion Control study](https://ESA-eodashboards.github.io/eodashboard-narratives/IND-MangroveMonitoring.md). Multi-spectral optical data tracks canopy loss and coastal shoreline displacement.
+
+### <!--{ zoom=11 center=[105.85,21.03] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-rgb","title":"Sentinel-2 True Color (RGB)","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma rgb 1.3, sigmoidal rgb 6 0.1, saturation 1.2","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}}]' }-->
+#### Hanoi, Vietnam: Rapid Urbanization & Land Use Shifts
+As explored in [Urbanization monitoring from EO data](https://ESA-eodashboards.github.io/eodashboard-narratives/VTN-UrbanExpansion.md), Hanoi's built-up area increased from 18.1% to 32.8% over a decade. High-resolution optical reflectance illuminates expanding impervious surfaces and shrinking peri-urban agricultural buffers.
+
+## Strategic Outlook & Data Sources
+### Outlook: Towards Operational Earth Action
+
+ESA's Earth Action Implementation Strategy underscores the shift from experimental Earth observation to dependable, automated public and private services. Combining high-resolution optical imagery with SAR backscatter, thermal infrared profiling, and digital twin analytics empowers regional authorities and researchers to confront emerging environmental extremes before irreversible tipping points are crossed.
+
+### Document Source
+- Strategy document: [Earth Action Implementation Strategy 2027.pdf](https://raw.githubusercontent.com/EOX-A/git-clerk-test/d4ff54de61a98a9f94e91fb29d2db744262f6114/assets/earth-action-implementation-strategy-2027-cb3b77b8.pdf)
+
+### Data Sources & Portals
+- **Satellite Data**: [Copernicus Sentinel-2 MSI Level-2A](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2) and [Copernicus Data Space Ecosystem](https://dataspace.copernicus.eu/).
+- **Basemaps**: [Sentinel-2 Cloudless by EOX](https://s2maps.eu).
+- **EO Dashboards & Workspaces**: [ESA RACE Dashboard](https://race.esa.int/), [GTIF Austria](https://gtif-austria.info/), [Trilateral EO Dashboard](https://eodashboard.org/), and [WASDI Platform](https://www.wasdi.cloud/).
+
+*This story is an AI-generated draft. Verify scientific data and satellite visualizations independently.*
