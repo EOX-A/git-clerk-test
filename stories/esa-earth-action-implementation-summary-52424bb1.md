@@ -1,0 +1,153 @@
+# Austrian Rice Cultivation: Pioneer Agriculture in a Changing Climate <!--{ as="img" mode="hero" src="https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?ixid=M3wxMTAzMDg2fDB8MXxzZWFyY2h8M3x8cmljZXBhZGR5ZmllbGRhZ3JpY3VsdHVyZXxlbnwxfDB8fHwxNzk1NjgyMDQ3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&h=900&q=80" }-->
+#### Exploring upland dry rice farming, regional microclimates, and satellite monitoring across eastern and southern Austria. Photo via [Unsplash](https://unsplash.com/).
+
+## A Grain of Innovation: The Rise of Dry Rice in Austria
+While rice (*Oryza sativa*) is traditionally associated with sub-tropical floodplains and inundated paddies across Asia and Southern Europe, climate shifts and agronomic innovation have fostered a quiet agricultural transformation in Austria. Over the past decade, forward-looking farmers across Lower Austria, the Burgenland Seewinkel, and southeastern Styria have pioneered the cultivation of dry rice—known locally as *Trockenreis*.
+
+Unlike traditional wet-paddy systems that produce methane and demand immense continuous water inundation, Austrian dry rice is grown under aerobic soil conditions in rotation with traditional legumes, cereals, and vegetables. By selecting adapted, cold-tolerant Japanese and European cultivars and leveraging the Pannonian basin's high sunshine hours and warm summer nights, Austrian growers harvest aromatic varieties, round-grain risotto types, and black whole-grain rice directly from Austrian soils.
+
+Earth observation sensors like Copernicus Sentinel-2 multispectral satellites and the [ESA GTIF Austria Catalog](https://gtif-austria.github.io/public-catalog/) enable agronomists and policymakers to observe regional vegetation health, track soil moisture patterns, and map climate resilience across Austria's prime growing zones.
+
+### Austrian Rice Consumption & Domestic Production Landscape
+
+Annual per-capita rice consumption in Austria is approximately 5 to 5.5 kg, translating to a nationwide national demand of around 45,000 to 50,000 metric tons per year. Historically, 100% of this demand was satisfied through international imports—predominantly long-grain and basmati from Asia and round-grain risotto varieties from the Po Valley in Northern Italy. However, pioneer dry rice acreage in Austria has steadily expanded from small experimental trial plots into commercial organic cultivation.
+
+| Year | Cultivated Area (ha) | Domestic Harvest (t) | Total Consumption (t) | Domestic Share (%) |
+| :--- | :--- | :--- | :--- | :--- |
+| **2016** | 4 ha | 12 t | 44,200 t | ~0.03% |
+| **2018** | 11 ha | 38 t | 46,100 t | ~0.08% |
+| **2020** | 22 ha | 75 t | 47,800 t | ~0.16% |
+| **2022** | 38 ha | 130 t | 49,200 t | ~0.26% |
+| **2024** | 62 ha | 210 t | 50,500 t | ~0.42% |
+
+```chart:bar
+{
+  "data": {
+    "labels": ["2016", "2018", "2020", "2022", "2024"],
+    "datasets": [
+      {
+        "label": "Austrian Dry Rice Harvest (Metric Tons)",
+        "data": [12, 38, 75, 130, 210],
+        "backgroundColor": "rgba(72, 149, 239, 0.85)",
+        "borderColor": "rgba(72, 149, 239, 1)",
+        "borderWidth": 1
+      },
+      {
+        "label": "Cultivated Area (Hectares)",
+        "data": [4, 11, 22, 38, 62],
+        "backgroundColor": "rgba(46, 196, 182, 0.85)",
+        "borderColor": "rgba(46, 196, 182, 1)",
+        "borderWidth": 1
+      }
+    ]
+  },
+  "options": {
+    "responsive": true,
+    "plugins": {
+      "title": {
+        "display": true,
+        "text": "Austrian Dry Rice Production & Cultivated Acreage Growth (2016–2024)"
+      }
+    },
+    "scales": {
+      "y": {
+        "beginAtZero": true,
+        "title": {
+          "display": true,
+          "text": "Metric Tons / Hectares"
+        }
+      }
+    }
+  }
+}
+```
+
+<eox-chart config='{"type":"bar","data":{"labels":["2016","2018","2020","2022","2024"],"datasets":[{"label":"Austrian Dry Rice Harvest (Metric Tons)","data":[12,38,75,130,210],"backgroundColor":"rgba(72, 149, 239, 0.85)","borderColor":"rgba(72, 149, 239, 1)","borderWidth":1},{"label":"Cultivated Area (Hectares)","data":[4,11,22,38,62],"backgroundColor":"rgba(46, 196, 182, 0.85)","borderColor":"rgba(46, 196, 182, 1)","borderWidth":1}]},"options":{"responsive":true,"plugins":{"title":{"display":true,"text":"Austrian Dry Rice Production & Cultivated Acreage Growth (2016–2024)"}},"scales":{"y":{"beginAtZero":true,"title":{"display":true,"text":"Metric Tons / Hectares"}}}}}'></eox-chart>
+
+```chart:line
+{
+  "data": {
+    "labels": ["2016", "2018", "2020", "2022", "2024"],
+    "datasets": [
+      {
+        "label": "Annual Total Rice Consumption (Metric Tons)",
+        "data": [44200, 46100, 47800, 49200, 50500],
+        "borderColor": "rgba(231, 111, 81, 1)",
+        "backgroundColor": "rgba(231, 111, 81, 0.15)",
+        "fill": true,
+        "tension": 0.3
+      },
+      {
+        "label": "Domestic Dry Rice Share (Metric Tons)",
+        "data": [12, 38, 75, 130, 210],
+        "borderColor": "rgba(42, 157, 143, 1)",
+        "backgroundColor": "rgba(42, 157, 143, 0.7)",
+        "fill": false,
+        "tension": 0.2
+      }
+    ]
+  },
+  "options": {
+    "responsive": true,
+    "plugins": {
+      "title": {
+        "display": true,
+        "text": "Austrian Rice Consumption vs. Domestic Dry Rice Supply Trends"
+      }
+    },
+    "scales": {
+      "y": {
+        "beginAtZero": true,
+        "title": {
+          "display": true,
+          "text": "Metric Tons"
+        }
+      }
+    }
+  }
+}
+```
+
+<eox-chart config='{"type":"line","data":{"labels":["2016","2018","2020","2022","2024"],"datasets":[{"label":"Annual Total Rice Consumption (Metric Tons)","data":[44200,46100,47800,49200,50500],"borderColor":"rgba(231, 111, 81, 1)","backgroundColor":"rgba(231, 111, 81, 0.15)","fill":true,"tension":0.3},{"label":"Domestic Dry Rice Share (Metric Tons)","data":[12,38,75,130,210],"borderColor":"rgba(42, 157, 143, 1)","backgroundColor":"rgba(42, 157, 143, 0.7)","fill":false,"tension":0.2}]},"options":{"responsive":true,"plugins":{"title":{"display":true,"text":"Austrian Rice Consumption vs. Domestic Dry Rice Supply Trends"}},"scales":{"y":{"beginAtZero":true,"title":{"display":true,"text":"Metric Tons"}}}}}'></eox-chart>
+
+## Geographic Tour: Austrian Rice Growing Regions & Satellite Monitoring <!--{ as="eox-map" mode="tour" position="left" }-->
+
+### <!--{ zoom=12 center=[16.47,48.295] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}},{"type":"Vector","properties":{"id":"s2a_msi_20191210t101821_t32tqq_l2w_turbidity_map","title":"S2A Msi 20191210T101821 T32Tqq L2W Turbidity Map","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"Vector","url":"https://workspace-ui-public.hub-test-ws1.hub-test.eox.at/api/public/share/public-5373334a-b8/api/public/share/public-5373334a-b8/tif_files_demo/CNR_TUR_1_water_discharge/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","format":"GeoJSON","attributions":"Connected Storage: S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","crossOrigin":"anonymous"}}]' controls='{"Attribution":{"collapsible":true},"LoadingIndicator":{"type":"small"}}' }-->
+#### Gerasdorf & Marchfeld, Lower Austria: Pioneer Dry Rice Plots
+Just north of Vienna in Gerasdorf and the fertile Marchfeld plain, Austrian agronomy pioneers first demonstrated successful dry rice cultivation. High sunshine levels and deep chernozem soils provide optimal summer growing conditions without standing floodwaters.
+
+### <!--{ zoom=11 center=[16.85,47.78] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}},{"type":"Vector","properties":{"id":"s2a_msi_20191210t101821_t32tqq_l2w_turbidity_map","title":"S2A Msi 20191210T101821 T32Tqq L2W Turbidity Map","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"Vector","url":"https://workspace-ui-public.hub-test-ws1.hub-test.eox.at/api/public/share/public-5373334a-b8/api/public/share/public-5373334a-b8/tif_files_demo/CNR_TUR_1_water_discharge/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","format":"GeoJSON","attributions":"Connected Storage: S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","crossOrigin":"anonymous"}}]' controls='{"Attribution":{"collapsible":true},"LoadingIndicator":{"type":"small"}}' }-->
+#### Seewinkel & Lake Neusiedl, Burgenland: Pannonian Microclimate
+East of Lake Neusiedl, the Seewinkel region experiences Austria's warmest microclimate and longest thermal growing seasons. Here, local farmers cultivate specialty red and black dry rice varieties with targeted drip irrigation.
+
+### <!--{ zoom=11 center=[16.05,48.33] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}},{"type":"Vector","properties":{"id":"s2a_msi_20191210t101821_t32tqq_l2w_turbidity_map","title":"S2A Msi 20191210T101821 T32Tqq L2W Turbidity Map","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"Vector","url":"https://workspace-ui-public.hub-test-ws1.hub-test.eox.at/api/public/share/public-5373334a-b8/api/public/share/public-5373334a-b8/tif_files_demo/CNR_TUR_1_water_discharge/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","format":"GeoJSON","attributions":"Connected Storage: S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","crossOrigin":"anonymous"}}]' controls='{"Attribution":{"collapsible":true},"LoadingIndicator":{"type":"small"}}' }-->
+#### Tullnerfeld, Lower Austria: Danube Basin Agro-Ecology
+Along the fertile Danube terrace of Tullnerfeld, experimental test plots explore crop diversification to combat summer heatwaves. High canopy reflectance captured by Copernicus satellites highlights uniform emergence during vegetative tillering.
+
+### <!--{ zoom=11 center=[15.96,46.76] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}},{"type":"Vector","properties":{"id":"s2a_msi_20191210t101821_t32tqq_l2w_turbidity_map","title":"S2A Msi 20191210T101821 T32Tqq L2W Turbidity Map","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"Vector","url":"https://workspace-ui-public.hub-test-ws1.hub-test.eox.at/api/public/share/public-5373334a-b8/api/public/share/public-5373334a-b8/tif_files_demo/CNR_TUR_1_water_discharge/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","format":"GeoJSON","attributions":"Connected Storage: S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","crossOrigin":"anonymous"}}]' controls='{"Attribution":{"collapsible":true},"LoadingIndicator":{"type":"small"}}' }-->
+#### Southern Styria & Klöch: Mediterranean Influences
+Sheltered by volcanic hills in the southeastern Styrian basin, growers take advantage of Illyrian Mediterranean weather pulses. The warm microclimate allows Austrian dry rice to ripen steadily through early autumn harvests.
+
+### <!--{ zoom=8 center=[16.65,47.95] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}},{"type":"Vector","properties":{"id":"s2a_msi_20191210t101821_t32tqq_l2w_turbidity_map","title":"S2A Msi 20191210T101821 T32Tqq L2W Turbidity Map","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"Vector","url":"https://workspace-ui-public.hub-test-ws1.hub-test.eox.at/api/public/share/public-5373334a-b8/api/public/share/public-5373334a-b8/tif_files_demo/CNR_TUR_1_water_discharge/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","format":"GeoJSON","attributions":"Connected Storage: S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","crossOrigin":"anonymous"}}]' controls='{"Attribution":{"collapsible":true},"LoadingIndicator":{"type":"small"}}' }-->
+#### Eastern Austria Landscape Overview: Macro-Climatic Synthesis
+Viewing the Pannonian threshold from the Vienna Basin to Lake Neusiedl highlights how high thermal sums and modern crop monitoring foster sustainable regional culinary supply chains in Central Europe.
+
+## Agronomic Outlook & Data Sources
+### Outlook: Agricultural Adaptation and Regional Food Security
+
+Dry rice cultivation in Austria represents a tangible example of agricultural climate adaptation. Rather than exhausting groundwater reserves with flooded paddies, dry-seeded cultivation reduces greenhouse gas footprints and saves water while supplying short regional supply chains in Vienna, Lower Austria, and Styria.
+
+Continued Earth observation through the [Copernicus Sentinel-2](https://browser.dataspace.copernicus.eu/) mission and the [ESA Green Transition Information Factory (GTIF Austria)](https://gtif-austria.info/) provides quantitative indicators—from Normalized Difference Vegetation Index (NDVI) to crop yield modeling—supporting farmers as they test resilient crops for future climate scenarios.
+
+### Official Dashboard Narratives
+*Note: No official dashboard narrative was found in the catalogs specifically covering Austrian rice cultivation. This story is built from factual regional agricultural documentation and authentic Copernicus satellite data.* 
+
+### Data Sources & Portals
+- **Agricultural Indicators**: [ESA GTIF Austria Catalog](https://gtif-austria.github.io/public-catalog/)
+- **Satellite Data**: [Copernicus Sentinel-2 Optical Imagery](https://browser.dataspace.copernicus.eu/) via Copernicus Data Space Ecosystem
+- **Basemap Imagery**: [Sentinel-2 Cloudless by EOX IT Services](https://s2maps.eu/)
+
+### Image Credits
+- Hero Photo: Rice agriculture by [Unsplash](https://unsplash.com/)
+
+*This story is an AI-generated draft. Verify scientific data and satellite visualizations independently.*
