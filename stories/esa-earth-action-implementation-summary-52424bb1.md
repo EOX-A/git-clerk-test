@@ -53,6 +53,10 @@ Erosion and seawater intrusion in Sumatra threaten critical mangrove barriers an
 #### Hanoi, Vietnam: Rapid Urbanization & Land Use Shifts
 As explored in [Urbanization monitoring from EO data](https://ESA-eodashboards.github.io/eodashboard-narratives/VTN-UrbanExpansion.md), Hanoi's built-up area increased from 18.1% to 32.8% over a decade. High-resolution optical reflectance illuminates expanding impervious surfaces and shrinking peri-urban agricultural buffers.
 
+### <!--{ zoom=12 center=[12.68,41.82] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma rgb 1.3, sigmoidal rgb 6 0.1, saturation 1.2","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}}]' }-->
+#### Frascati, Italy: ESA-ESRIN & Earth Observation Operations
+ESA's Centre for Earth Observation (ESRIN) in Frascati coordinates ground segment operations and downstream exploitation missions under the Earth Action Strategy. Optical Sentinel-2 imagery highlights the volcanic Roman hills and surrounding operational infrastructure.
+
 ## Strategic Outlook & Data Sources
 ### Outlook: Towards Operational Earth Action
 
