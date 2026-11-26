@@ -19,6 +19,10 @@ At continental scale, satellite data cubes stack multispectral Sentinel-2, therm
 #### 2. Urban Heat Islands & Building Data: Toulouse
 As highlighted in the [ESA RACE IDEAS Narrative](https://esa-eodashboards.github.io/RACE-narratives/IDEAS.md), combining Landsat surface temperature with building energy efficiency data creates multi-criteria heat risk indices across urban districts like Toulouse.
 
+### <!--{ src="https://images.unsplash.com/photo-1590601842130-d011682e97fc?ixid=M3wxMTAzMDg2fDB8MXxzZWFyY2h8MXx8cnViaWtzY3ViZXxlbnwxfDB8fHwxNzk1NjgyNTAwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1280&h=720&q=80" }-->
+#### Multidimensional Slicing & Cubesats
+Just like pivoting the facets of a Rubik's Cube, geospatial data architectures slice multidimensional satellite rasters across spatial, spectral, and temporal coordinates. Photo on [Unsplash](https://unsplash.com/?utm_source=eox_hub&utm_medium=referral).
+
 ### <!--{ zoom=7 center=[-0.5,46.5] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857","crossOrigin":"anonymous","attributions":"<a href=\"https://maps.eox.at\" target=\"_blank\">\u00a9 Terrain Light by EOX IT Services GmbH</a>, \u00a9 <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a>"}}]' animationOptions='{"duration":500}' }-->
 #### 3. The Biodiversity & Habitat Facet: Western France
 Rotating the data cube to biodiversity integrates crowdsourced [GBIF](https://www.gbif.org/) species observations, road fragmentation pressures, and vegetation greenness to map vulnerable ecological corridors.
