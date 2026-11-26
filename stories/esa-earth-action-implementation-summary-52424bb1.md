@@ -12,93 +12,9 @@ Earth observation sensors like Copernicus Sentinel-2 multispectral satellites an
 
 Annual per-capita rice consumption in Austria is approximately 5 to 5.5 kg, translating to a nationwide national demand of around 45,000 to 50,000 metric tons per year. Historically, 100% of this demand was satisfied through international imports—predominantly long-grain and basmati from Asia and round-grain risotto varieties from the Po Valley in Northern Italy. However, pioneer dry rice acreage in Austria has steadily expanded from small experimental trial plots into commercial organic cultivation.
 
-```chart
-{
-  "type": "bar",
-  "data": {
-    "labels": ["2016", "2018", "2020", "2022", "2024"],
-    "datasets": [
-      {
-        "label": "Austrian Dry Rice Harvest (Metric Tons)",
-        "data": [12, 38, 75, 130, 210],
-        "backgroundColor": "rgba(72, 149, 239, 0.8)",
-        "borderColor": "rgba(72, 149, 239, 1)",
-        "borderWidth": 1
-      },
-      {
-        "label": "Cultivated Area (Hectares)",
-        "data": [4, 11, 22, 38, 62],
-        "backgroundColor": "rgba(46, 196, 182, 0.8)",
-        "borderColor": "rgba(46, 196, 182, 1)",
-        "borderWidth": 1
-      }
-    ]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Austrian Dry Rice Production & Cultivated Acreage Growth (2016–2024)"
-      }
-    },
-    "scales": {
-      "y": {
-        "beginAtZero": true,
-        "title": {
-          "display": true,
-          "text": "Metric Tons / Hectares"
-        }
-      }
-    }
-  }
-}
-```
+<!--{{ as="eox-chart" config='{"type":"bar","data":{"labels":["2016","2018","2020","2022","2024"],"datasets":[{"label":"Austrian Dry Rice Harvest (Metric Tons)","data":[12,38,75,130,210],"backgroundColor":"rgba(72, 149, 239, 0.8)","borderColor":"rgba(72, 149, 239, 1)","borderWidth":1},{"label":"Cultivated Area (Hectares)","data":[4,11,22,38,62],"backgroundColor":"rgba(46, 196, 182, 0.8)","borderColor":"rgba(46, 196, 182, 1)","borderWidth":1}]},"options":{"responsive":true,"plugins":{"title":{"display":true,"text":"Austrian Dry Rice Production & Cultivated Acreage Growth (2016–2024)"}},"scales":{"y":{"beginAtZero":true,"title":{"display":true,"text":"Metric Tons / Hectares"}}}}}' }}-->
 
-```chart
-{
-  "type": "line",
-  "data": {
-    "labels": ["2016", "2018", "2020", "2022", "2024"],
-    "datasets": [
-      {
-        "label": "Annual Total Rice Consumption (Metric Tons)",
-        "data": [44200, 46100, 47800, 49200, 50500],
-        "borderColor": "rgba(231, 111, 81, 1)",
-        "backgroundColor": "rgba(231, 111, 81, 0.15)",
-        "fill": true,
-        "tension": 0.3
-      },
-      {
-        "label": "Domestic Dry Rice Share (Metric Tons)",
-        "data": [12, 38, 75, 130, 210],
-        "borderColor": "rgba(42, 157, 143, 1)",
-        "backgroundColor": "rgba(42, 157, 143, 0.6)",
-        "fill": false,
-        "tension": 0.2
-      }
-    ]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Austrian Rice Consumption vs. Domestic Dry Rice Supply Trends"
-      }
-    },
-    "scales": {
-      "y": {
-        "beginAtZero": true,
-        "title": {
-          "display": true,
-          "text": "Metric Tons"
-        }
-      }
-    }
-  }
-}
-```
+<!--{{ as="eox-chart" config='{"type":"line","data":{"labels":["2016","2018","2020","2022","2024"],"datasets":[{"label":"Annual Total Rice Consumption (Metric Tons)","data":[44200,46100,47800,49200,50500],"borderColor":"rgba(231, 111, 81, 1)","backgroundColor":"rgba(231, 111, 81, 0.15)","fill":true,"tension":0.3},{"label":"Domestic Dry Rice Share (Metric Tons)","data":[12,38,75,130,210],"borderColor":"rgba(42, 157, 143, 1)","backgroundColor":"rgba(42, 157, 143, 0.6)","fill":false,"tension":0.2}]},"options":{"responsive":true,"plugins":{"title":{"display":true,"text":"Austrian Rice Consumption vs. Domestic Dry Rice Supply Trends"}},"scales":{"y":{"beginAtZero":true,"title":{"display":true,"text":"Metric Tons"}}}}}' }}-->
 
 ## Geographic Tour: Austrian Rice Growing Regions & Satellite Monitoring <!--{ as="eox-map" mode="tour" position="left" }-->
 
