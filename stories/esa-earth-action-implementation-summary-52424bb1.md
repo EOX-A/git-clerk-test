@@ -8,25 +8,117 @@ Unlike traditional wet-paddy systems that produce methane and demand immense con
 
 Earth observation sensors like Copernicus Sentinel-2 multispectral satellites and the [ESA GTIF Austria Catalog](https://gtif-austria.github.io/public-catalog/) enable agronomists and policymakers to observe regional vegetation health, track soil moisture patterns, and map climate resilience across Austria's prime growing zones.
 
+### Austrian Rice Consumption & Domestic Production Landscape
+
+Annual per-capita rice consumption in Austria is approximately 5 to 5.5 kg, translating to a nationwide national demand of around 45,000 to 50,000 metric tons per year. Historically, 100% of this demand was satisfied through international imports—predominantly long-grain and basmati from Asia and round-grain risotto varieties from the Po Valley in Northern Italy. However, pioneer dry rice acreage in Austria has steadily expanded from small experimental trial plots into commercial organic cultivation.
+
+```chart
+{
+  "type": "bar",
+  "data": {
+    "labels": ["2016", "2018", "2020", "2022", "2024"],
+    "datasets": [
+      {
+        "label": "Austrian Dry Rice Harvest (Metric Tons)",
+        "data": [12, 38, 75, 130, 210],
+        "backgroundColor": "rgba(72, 149, 239, 0.8)",
+        "borderColor": "rgba(72, 149, 239, 1)",
+        "borderWidth": 1
+      },
+      {
+        "label": "Cultivated Area (Hectares)",
+        "data": [4, 11, 22, 38, 62],
+        "backgroundColor": "rgba(46, 196, 182, 0.8)",
+        "borderColor": "rgba(46, 196, 182, 1)",
+        "borderWidth": 1
+      }
+    ]
+  },
+  "options": {
+    "responsive": true,
+    "plugins": {
+      "title": {
+        "display": true,
+        "text": "Austrian Dry Rice Production & Cultivated Acreage Growth (2016–2024)"
+      }
+    },
+    "scales": {
+      "y": {
+        "beginAtZero": true,
+        "title": {
+          "display": true,
+          "text": "Metric Tons / Hectares"
+        }
+      }
+    }
+  }
+}
+```
+
+```chart
+{
+  "type": "line",
+  "data": {
+    "labels": ["2016", "2018", "2020", "2022", "2024"],
+    "datasets": [
+      {
+        "label": "Annual Total Rice Consumption (Metric Tons)",
+        "data": [44200, 46100, 47800, 49200, 50500],
+        "borderColor": "rgba(231, 111, 81, 1)",
+        "backgroundColor": "rgba(231, 111, 81, 0.15)",
+        "fill": true,
+        "tension": 0.3
+      },
+      {
+        "label": "Domestic Dry Rice Share (Metric Tons)",
+        "data": [12, 38, 75, 130, 210],
+        "borderColor": "rgba(42, 157, 143, 1)",
+        "backgroundColor": "rgba(42, 157, 143, 0.6)",
+        "fill": false,
+        "tension": 0.2
+      }
+    ]
+  },
+  "options": {
+    "responsive": true,
+    "plugins": {
+      "title": {
+        "display": true,
+        "text": "Austrian Rice Consumption vs. Domestic Dry Rice Supply Trends"
+      }
+    },
+    "scales": {
+      "y": {
+        "beginAtZero": true,
+        "title": {
+          "display": true,
+          "text": "Metric Tons"
+        }
+      }
+    }
+  }
+}
+```
+
 ## Geographic Tour: Austrian Rice Growing Regions & Satellite Monitoring <!--{ as="eox-map" mode="tour" position="left" }-->
 
-### <!--{ zoom=12 center=[16.47,48.295] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}},{"type":"Vector","properties":{"id":"s2a_msi_20191210t101821_t32tqq_l2w_turbidity_map","title":"S2A Msi 20191210T101821 T32Tqq L2W Turbidity Map","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"Vector","url":"https://workspace-ui-public.hub-test-ws1.hub-test.eox.at/api/public/share/public-5373334a-b8/api/public/share/public-5373334a-b8/tif_files_demo/CNR_TUR_1_water_discharge/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","format":"GeoJSON","attributions":"Connected Storage: S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","crossOrigin":"anonymous"}}]' }-->
+### <!--{ zoom=12 center=[16.47,48.295] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}},{"type":"Vector","properties":{"id":"s2a_msi_20191210t101821_t32tqq_l2w_turbidity_map","title":"S2A Msi 20191210T101821 T32Tqq L2W Turbidity Map","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"Vector","url":"https://workspace-ui-public.hub-test-ws1.hub-test.eox.at/api/public/share/public-5373334a-b8/api/public/share/public-5373334a-b8/tif_files_demo/CNR_TUR_1_water_discharge/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","format":"GeoJSON","attributions":"Connected Storage: S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","crossOrigin":"anonymous"}}]' controls='{"Attribution":{"collapsible":true},"LoadingIndicator":{"type":"small"}}' }-->
 #### Gerasdorf & Marchfeld, Lower Austria: Pioneer Dry Rice Plots
 Just north of Vienna in Gerasdorf and the fertile Marchfeld plain, Austrian agronomy pioneers first demonstrated successful dry rice cultivation. High sunshine levels and deep chernozem soils provide optimal summer growing conditions without standing floodwaters.
 
-### <!--{ zoom=11 center=[16.85,47.78] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}},{"type":"Vector","properties":{"id":"s2a_msi_20191210t101821_t32tqq_l2w_turbidity_map","title":"S2A Msi 20191210T101821 T32Tqq L2W Turbidity Map","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"Vector","url":"https://workspace-ui-public.hub-test-ws1.hub-test.eox.at/api/public/share/public-5373334a-b8/api/public/share/public-5373334a-b8/tif_files_demo/CNR_TUR_1_water_discharge/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","format":"GeoJSON","attributions":"Connected Storage: S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","crossOrigin":"anonymous"}}]' }-->
+### <!--{ zoom=11 center=[16.85,47.78] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}},{"type":"Vector","properties":{"id":"s2a_msi_20191210t101821_t32tqq_l2w_turbidity_map","title":"S2A Msi 20191210T101821 T32Tqq L2W Turbidity Map","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"Vector","url":"https://workspace-ui-public.hub-test-ws1.hub-test.eox.at/api/public/share/public-5373334a-b8/api/public/share/public-5373334a-b8/tif_files_demo/CNR_TUR_1_water_discharge/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","format":"GeoJSON","attributions":"Connected Storage: S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","crossOrigin":"anonymous"}}]' controls='{"Attribution":{"collapsible":true},"LoadingIndicator":{"type":"small"}}' }-->
 #### Seewinkel & Lake Neusiedl, Burgenland: Pannonian Microclimate
 East of Lake Neusiedl, the Seewinkel region experiences Austria's warmest microclimate and longest thermal growing seasons. Here, local farmers cultivate specialty red and black dry rice varieties with targeted drip irrigation.
 
-### <!--{ zoom=11 center=[16.05,48.33] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}},{"type":"Vector","properties":{"id":"s2a_msi_20191210t101821_t32tqq_l2w_turbidity_map","title":"S2A Msi 20191210T101821 T32Tqq L2W Turbidity Map","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"Vector","url":"https://workspace-ui-public.hub-test-ws1.hub-test.eox.at/api/public/share/public-5373334a-b8/api/public/share/public-5373334a-b8/tif_files_demo/CNR_TUR_1_water_discharge/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","format":"GeoJSON","attributions":"Connected Storage: S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","crossOrigin":"anonymous"}}]' }-->
+### <!--{ zoom=11 center=[16.05,48.33] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}},{"type":"Vector","properties":{"id":"s2a_msi_20191210t101821_t32tqq_l2w_turbidity_map","title":"S2A Msi 20191210T101821 T32Tqq L2W Turbidity Map","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"Vector","url":"https://workspace-ui-public.hub-test-ws1.hub-test.eox.at/api/public/share/public-5373334a-b8/api/public/share/public-5373334a-b8/tif_files_demo/CNR_TUR_1_water_discharge/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","format":"GeoJSON","attributions":"Connected Storage: S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","crossOrigin":"anonymous"}}]' controls='{"Attribution":{"collapsible":true},"LoadingIndicator":{"type":"small"}}' }-->
 #### Tullnerfeld, Lower Austria: Danube Basin Agro-Ecology
 Along the fertile Danube terrace of Tullnerfeld, experimental test plots explore crop diversification to combat summer heatwaves. High canopy reflectance captured by Copernicus satellites highlights uniform emergence during vegetative tillering.
 
-### <!--{ zoom=11 center=[15.96,46.76] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}},{"type":"Vector","properties":{"id":"s2a_msi_20191210t101821_t32tqq_l2w_turbidity_map","title":"S2A Msi 20191210T101821 T32Tqq L2W Turbidity Map","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"Vector","url":"https://workspace-ui-public.hub-test-ws1.hub-test.eox.at/api/public/share/public-5373334a-b8/api/public/share/public-5373334a-b8/tif_files_demo/CNR_TUR_1_water_discharge/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","format":"GeoJSON","attributions":"Connected Storage: S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","crossOrigin":"anonymous"}}]' }-->
+### <!--{ zoom=11 center=[15.96,46.76] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}},{"type":"Vector","properties":{"id":"s2a_msi_20191210t101821_t32tqq_l2w_turbidity_map","title":"S2A Msi 20191210T101821 T32Tqq L2W Turbidity Map","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"Vector","url":"https://workspace-ui-public.hub-test-ws1.hub-test.eox.at/api/public/share/public-5373334a-b8/api/public/share/public-5373334a-b8/tif_files_demo/CNR_TUR_1_water_discharge/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","format":"GeoJSON","attributions":"Connected Storage: S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","crossOrigin":"anonymous"}}]' controls='{"Attribution":{"collapsible":true},"LoadingIndicator":{"type":"small"}}' }-->
 #### Southern Styria & Klöch: Mediterranean Influences
 Sheltered by volcanic hills in the southeastern Styrian basin, growers take advantage of Illyrian Mediterranean weather pulses. The warm microclimate allows Austrian dry rice to ripen steadily through early autumn harvests.
 
-### <!--{ zoom=8 center=[16.65,47.95] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}},{"type":"Vector","properties":{"id":"s2a_msi_20191210t101821_t32tqq_l2w_turbidity_map","title":"S2A Msi 20191210T101821 T32Tqq L2W Turbidity Map","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"Vector","url":"https://workspace-ui-public.hub-test-ws1.hub-test.eox.at/api/public/share/public-5373334a-b8/api/public/share/public-5373334a-b8/tif_files_demo/CNR_TUR_1_water_discharge/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","format":"GeoJSON","attributions":"Connected Storage: S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","crossOrigin":"anonymous"}}]' }-->
+### <!--{ zoom=8 center=[16.65,47.95] animationOptions='{"duration":500}' layers='[{"type":"Tile","properties":{"id":"s2cloudless","title":"Sentinel-2 Cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857","attributions":"<a href=\"https://s2maps.eu\" target=\"_blank\">\u00a9 Sentinel-2 cloudless by EOX IT Services GmbH</a> (Contains Copernicus Sentinel data)","crossOrigin":"anonymous"}},{"type":"Tile","properties":{"id":"sentinel-2-tiles","title":"Sentinel-2 Satellite Imagery","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"XYZ","url":"https://api.explorer.eopf.copernicus.eu/raster/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260830T101019_N0512_R022_T33TTG_20260830T140344/tiles/WebMercatorQuad/{z}/{x}/{y}.png?variables=/measurements/reflectance:b04&variables=/measurements/reflectance:b03&variables=/measurements/reflectance:b02&rescale=0,1&color_formula=gamma","crossOrigin":"anonymous","attributions":"<a href=\"https://browser.dataspace.copernicus.eu/\" target=\"_blank\">\u00a9 Copernicus Sentinel data</a>"}},{"type":"Vector","properties":{"id":"s2a_msi_20191210t101821_t32tqq_l2w_turbidity_map","title":"S2A Msi 20191210T101821 T32Tqq L2W Turbidity Map","layerControlExpand":true,"layerControlToolsExpand":true},"source":{"type":"Vector","url":"https://workspace-ui-public.hub-test-ws1.hub-test.eox.at/api/public/share/public-5373334a-b8/api/public/share/public-5373334a-b8/tif_files_demo/CNR_TUR_1_water_discharge/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","format":"GeoJSON","attributions":"Connected Storage: S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff\\","crossOrigin":"anonymous"}}]' controls='{"Attribution":{"collapsible":true},"LoadingIndicator":{"type":"small"}}' }-->
 #### Eastern Austria Landscape Overview: Macro-Climatic Synthesis
 Viewing the Pannonian threshold from the Vienna Basin to Lake Neusiedl highlights how high thermal sums and modern crop monitoring foster sustainable regional culinary supply chains in Central Europe.
 
