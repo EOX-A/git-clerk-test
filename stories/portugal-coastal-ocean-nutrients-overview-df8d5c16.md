@@ -1,5 +1,5 @@
-# Ocean Observations & Coastal Upwelling: Portugal's Atlantic Waters <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_PIX_Ocean_COVER_Photo.jpeg" }-->
-#### Satellite tracking of ocean nutrients, temperature gradients, and primary productivity along the Iberian Atlantic margin. Image via Copernicus / EO Dashboard.
+# Ocean Observations & Coastal Upwelling: Portugal's Atlantic Waters <!--{ as="img" mode="hero" src="https://images.unsplash.com/photo-1532546430529-1be093fd5aaf?ixid=M3wxMTAzMDg2fDB8MXxzZWFyY2h8MXx8cG9ydHVnYWxhdGxhbnRpY29jZWFuY29hc3R8ZW58MXwwfHx8MTc5NTY5NzE1M3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1280&h=720&q=80" }-->
+#### Satellite tracking of ocean nutrients, temperature gradients, and primary productivity along the Iberian Atlantic margin. Photo via [Unsplash](https://unsplash.com/).
 
 ## Atlantic Ocean Dynamics and Marine Ecosystems off Portugal
 The Atlantic coast of mainland Portugal and its adjacent Exclusive Economic Zone (EEZ) form part of the Canary Current Upwelling System—one of the world's major eastern boundary upwelling ecosystems. Seasonal northerly winds driving Ekman transport cause cold, nutrient-laden subsurface waters to rise toward the sunlit photic zone, fueling explosive blooms of phytoplankton that sustain sardine, mackerel, and pelagic fisheries along the continental shelf.
@@ -41,3 +41,6 @@ Long-term monitoring of the Portuguese marine realm demonstrates how atmospheric
 - **Basemap Services**: [Terrain Light WMTS](https://maps.eox.at) by EOX IT Services GmbH and © [OpenStreetMap](https://www.openstreetmap.org/copyright).
 
 *This story is an AI-generated draft. Verify scientific data and satellite visualizations independently.*
+
+### Image Credits
+- Photo by [Ferhat Deniz Fors](https://unsplash.com/@ferhat?utm_source=eox_hub&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=eox_hub&utm_medium=referral)
